@@ -1,0 +1,9 @@
+{% if page.author_name %}
+  Contributed by
+  {% if page.author_url %}
+    <a href="{{ page.author_url }}">{{ page.author_name }}</a>
+  {% else %}
+    {{ page.author_name }}
+  {% endif %}
+  on
+{% endif %}

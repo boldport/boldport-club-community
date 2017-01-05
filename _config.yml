@@ -1,0 +1,112 @@
+title: BoldportClub-Community
+email: hello@boldport.com
+author:  Community
+description: > #
+  This blog is my occasional diary of Quite Interesting Things.
+  It is generally technical, meaning all things web, open source, polyglot-programming, electronics and concerning data.
+  But sometimes ravings on books or musics, and occasionally a rant or philosophical dribble.
+baseurl:     ""
+repo_url:    "https://github.com/tardate/boldportclub-community"
+url:         "http://tardate.github.io/boldportclub-community/"
+date_format: "%b %-d, %Y"
+
+# Google services
+google_verification:
+# Use either direct GA implementation or set up GTM account
+# - using both will skew your data (leave blank to not use at all)
+google_analytics:
+google_tag_manager:
+# Bing services
+bing_verification:
+
+# Optional features
+animated:             true
+show_related_posts:   false
+show_social_icons:    true
+enable_mathjax: false
+extended_fonts: false
+enable_anchorjs: false
+
+# Facebook Page integration
+# (for instant articles and other stuff)
+fb_page: false
+fb_page_id:
+
+# Disqus post comments
+# (leave blank to disable Disqus)
+disqus_shortname: tardate
+
+# Facebook Comments plugin
+# (leave blank to disable Facebook Comments, otherwise set it to true)
+facebook_comments:
+facebook_appid:
+facebook_comments_number: 10
+
+# Social icons
+github_username:  boldport
+bitbucket_username:
+stackoverflow_id:
+twitter_username: boldport
+skype_username:
+steam_nickname:
+google_plus_id:
+linkedin_username:
+angellist_username:
+medium_id:
+bitcoin_url:
+paypal_url:
+flattr_button:
+
+# Post sharing icons
+show_sharing_icons: true
+# Change to 'true' to enable individual icons
+share_facebook: false
+share_twitter: false
+share_googleplus: false
+share_linkedin: false
+share_digg: false
+share_tumblr: false
+share_reddit: false
+share_stumbleupon: false
+share_hackernews: false
+
+text:
+  pagination:
+    newer: 'Newer'
+    older: 'Older'
+  share_buttons:
+    text:         'Share this post!'
+    facebook:     'Share on Facebook'
+    twitter:      'Share on Twitter'
+    googleplus:   'Share on Google+'
+    linkedin:     'Share on LinkedIn'
+    digg:         'Share on Digg'
+    tumblr:       'Share on Tumblr'
+    reddit:       'Share on Reddit'
+    stumbleupon:  'Share on StumbleUpon'
+    hackernews:   'Share on Hacker News'
+  post:
+    updated:        'Updated'
+    minute_read:    'minute read'
+    related_posts:  'Related Posts'
+  index:
+    coming_soon: 'Coming soon...'
+  thanks: 'Thanks for contacting us. We will reply as soon as possible.'
+  og_locale: 'en_US'
+
+# Build settings
+markdown:     kramdown
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data']
+permalink:    /:categories/:year/:month/:title.html
+paginate:     4
+sass:
+  compressed: true
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-coffeescript
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock

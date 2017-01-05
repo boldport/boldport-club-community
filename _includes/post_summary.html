@@ -1,0 +1,15 @@
+<div class="post">
+  <a href="{{ page.url | prepend: site.baseurl }}">
+    <h3>{{ page.title }}</h3>
+  </a>
+  <p class="text-muted">
+    {% include post_author.html %}
+    {{ page.date | date: site.date_format }}
+  </p>
+  <p>
+    {{ page.excerpt }}
+  </p>
+  <p>
+    <a href="{{ page.url | prepend: site.baseurl }}"><em>read more and comment..</em></a>
+  </p>
+</div>

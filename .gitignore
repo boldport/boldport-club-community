@@ -1,0 +1,9 @@
+# ruby stuff
+.ruby*
+Gemfile.lock
+
+# jekyll intermediates
+_site
+.sass-cache
+
+tmp

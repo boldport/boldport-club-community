@@ -1,0 +1,48 @@
+---
+layout: page
+title: Contribute to the Site!
+permalink: /contribute/
+---
+
+<p>
+This site is only possible with the active involvement of the Boldport Community.
+Contributions are most welcome, and we're trying to make it as easy as possible
+for you to share your own material with as little fuss as possible.
+There are three ways to do this:
+</p>
+
+<h3>1. Send a Pull-Request</h3>
+<p>
+  If you are familiar with GitHub, either ask for contributor access to the
+  <a href="{{ site.repo_url }}">GitHub repository</a>
+  or fork it and send a pull-request.
+</p>
+
+<h3>2. Create an "Issue"</h3>
+<p>
+  Create an issue on the site
+  <a href="{{ site.repo_url }}/issues">GitHub repository</a>
+  and a maintainer will pick it up and turn it into a post if possible.
+</p>
+
+<h3>3. Submit a Contribution Notification</h3>
+<p>
+  Use the form below to send your contribution.
+  A maintainer will receive it up and turn it into a post if possible.
+</p>
+
+
+<form action="https://formspree.io/{{ site.email }}" method="POST">
+  <div class="form-group">
+    <label for="email">Email Address</label>
+    <input type="email" name="email" class="form-control" id="email" placeholder="your@email.address">
+  </div>
+  <div class="form-group">
+    <textarea type="text" name="content" class="form-control" rows="5"
+    placeholder="What would you like to share? Include links, suggested title and content"></textarea>
+  </div>
+  <input type="hidden" name="_next" value="{{ site.baseurl }}/thanks/" />
+  <input type="hidden" name="_subject" value="New submission!" />
+  <input type="text" name="_gotcha" style="display:none" />
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>

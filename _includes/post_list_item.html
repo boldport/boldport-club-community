@@ -1,0 +1,7 @@
+<li>
+  <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+  <em class="text-muted">
+    {% include post_author.html %}
+    {{ page.date | date: site.date_format }}
+  </em>
+</li>

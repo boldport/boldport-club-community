@@ -1,0 +1,38 @@
+---
+# The scss file which include files from _sass/
+# to include style sets from the _sass folder, add an include here.
+# e.g. for a file _sass/_specials.scss, add:;
+# @import 'specials';
+---
+@charset "UTF-8";
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.navbar-default {
+  background-color: unset;
+  border: none;
+  margin-bottom: 50px;
+}
+.navbar-brand {
+  padding-top: 5px;
+  > img {
+    height: 40px;
+  }
+}
+.nav-tabs {
+  margin-bottom: 20px;
+}
+
+.footer {
+  min-height: 50px;
+}
+
+.post {
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+}

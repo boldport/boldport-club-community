@@ -1,0 +1,17 @@
+<div class="btn-group btn-group-justified" role="group" aria-label="pagination">
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="btn btn-default" href="{{ site.baseurl }}/">{{ site.text.pagination.newer }}</a>
+    {% else %}
+      <a class="btn btn-default" href="{{ paginator.previous_page_path }}">{{ site.text.pagination.newer }}</a>
+    {% endif %}
+  {% else %}
+    <div class="btn btn-default disabled">{{ site.text.pagination.newer }}</div>
+  {% endif %}
+  <div class="btn btn-default  btn-disabled">Page {{ paginator.page }} of {{ paginator.total_pages }}</div>
+  {% if paginator.next_page %}
+    <a class="btn btn-default" href="{{ paginator.next_page_path }}">{{ site.text.pagination.older }}</a>
+  {% else %}
+    <div class="btn btn-default disabled">{{ site.text.pagination.older }}</div>
+  {% endif %}
+</div>
