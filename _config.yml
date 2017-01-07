@@ -2,9 +2,7 @@ title: BoldportClub-Community
 email: hello@boldport.com
 author:  Community
 description: > #
-  This blog is my occasional diary of Quite Interesting Things.
-  It is generally technical, meaning all things web, open source, polyglot-programming, electronics and concerning data.
-  But sometimes ravings on books or musics, and occasionally a rant or philosophical dribble.
+  quick prototype of a possible community site for the Boldport Club community
 baseurl:     ""
 repo_url:    "https://github.com/tardate/boldportclub-community"
 url:         "http://tardate.github.io/boldportclub-community/"
