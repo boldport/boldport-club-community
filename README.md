@@ -104,15 +104,15 @@ The basics:
 * improve the styling. The site currently only has absolutely minimal tweaks over a basic bootstrap layout.
 * enable the content submission form (formspree.io)
 * configure disqus (tardate used for testing)
-* add a script to create new posts from template
 * add a script to add new project pages
 * tidy and complete the text content on the site
 * enable google tag manager?
 * is sitemap working?
 
+
 ## Up And Running
 
-To run/develop the site locally:
+To run/develop the site locally, you first need a working ruby environment. Then:
 
 ```
 $ gem install bundler
@@ -122,18 +122,11 @@ $ bundle exec jekyll serve
 
 ## Adding a Post
 
-Just create a new markdown or html file in `_posts` with a standard name `YYYY-MM-DD-your-title.extension`
+Just create a new markdown or html file in `_posts` with a standard name `YYYY-MM-DD-your-title.extension`.
+See the [template.md](./_drafts/template.md) for information on how to use front-matter etc.
 
-### Project Categories
-
-If the post concerns a Boldport project, add the project name as a category in the YAML front matter:
+A script is available to simplify new post creation. Just run:
 
 ```
-categories:
-- p04-thelady
-- p11-thematrix
-# or
-category: p04-thelady
+$ ruby bin/new_post.rb
 ```
-
-Add the project category will cause the post to be included in the corresponding project page.

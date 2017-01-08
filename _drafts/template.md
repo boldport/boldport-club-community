@@ -14,8 +14,20 @@ author_name: Contributor Name
 
 # If the post relates to many projects, set the project names as a categories array:
 #categories:
+#- p01-pease
+#- p02-emergency
+#- p03-cordwood
 #- p04-thelady
+#- p05-tap
+#- p06-thecuttle
+#- p07-touchy
+#- p08-ligemdio
+#- p09-pissoff
+#- p10-thegent
 #- p11-thematrix
+#- p12-juice
+#- p99-conqueror
+#- qsop-breakout
 
 # If the post features a youtube video, set the ID here:
 #youtubeid: gXsVeNLuWLw

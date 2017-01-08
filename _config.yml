@@ -105,6 +105,7 @@ gems:
   - jekyll-sitemap
   - jekyll-coffeescript
 exclude:
+  - bin
   - vendor
   - Gemfile
   - Gemfile.lock
