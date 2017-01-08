@@ -102,6 +102,7 @@ The basics:
 
 * move to a final repo to something like https://github.com/boldport/boldportclub-community
 * improve the styling. The site currently only has absolutely minimal tweaks over a basic bootstrap layout.
+* favicons
 * enable the content submission form (formspree.io)
 * configure disqus (tardate used for testing)
 * add a script to add new project pages

@@ -22,8 +22,6 @@ animated:             true
 show_related_posts:   false
 show_social_icons:    true
 enable_mathjax: false
-extended_fonts: false
-enable_anchorjs: false
 
 # Facebook Page integration
 # (for instant articles and other stuff)
