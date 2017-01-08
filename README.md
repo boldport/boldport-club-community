@@ -3,9 +3,7 @@
 This is a quick prototype of a possible community site for the Boldport Club community.
 
 
-
 ## Ideas and Motivation
-
 
 | what people like to share   | how they share |
 |-----------------------------|----------------|
@@ -16,10 +14,10 @@ This is a quick prototype of a possible community site for the Boldport Club com
 All this great information tends to be quite ephemeral, while the official boldport project pages are quite static, posing some challenges:
 
 * as a member, how can I find all the useful and interesting information about a boldport club project?
-* as a non-member, how can I get a better sense of what the boldport club is about and what I could do too if I joined?
+* as a non-member, how can I get a better sense of what the boldport club is about? And what I could I expect to be doing if I joined?
 
 
-Proposition: we are missing a **community site** to supplement the existing bolport pages - a central archive of information shared by members that is the *goto* destination for:
+Proposition: there's a missing a **community site** to supplement the existing bolport pages - a central archive of information shared by members that is the *goto* destination for:
   - members starting a project build, to get inspired and informed by what others have done
   - members to share their builds, guides and pictures/videos in a permanent repository
   - a source of links for posting on other platforms
@@ -38,7 +36,7 @@ Some key principles to make this a success:
 ## A Jekyll Prototype
 
 There are many ways to do this, including simply taking advantage of commercial platforms like a Facebook Group,
-of just mining hashtags. However I suspect that is antithetical to the views of many in the Boldport realm,
+or just mining hashtags. However I suspect that is antithetical to the views of many in the Boldport realm,
 and a central community site will complement other social forums, even if just as a source of link-bait.
 
 So a fairly random decision: could we use a Jekyll-based site hosted on GitHub for such a thing?
@@ -46,9 +44,9 @@ This repo is a quick prototype to see how well it works.
 
 Why Jekyll & GitHub?
 
-* free hosting!
-* Jekyll is the static-site framework integrated in GitHub Pages (we could use other frameworks, but they'd all need offline generation)
-* it seems pretty easy and popular amongst the more technically-inclined for maintaining blogs and proejct pages
+* [GitHub Pages](https://pages.github.com/) is a great way of hosting static sites for free, while also maintaining and sharing the site soruce from a GitHub repository
+* [Jekyll](https://jekyllrb.com/) is the static-site framework integrated in GitHub Pages (we could use other frameworks, but they'd all need offline generation)
+* it seems pretty easy and popular amongst the more technically-inclined for maintaining blogs and project pages
 
 
 How does it work?
@@ -101,7 +99,7 @@ The basics:
 ## TODO
 
 * move to a final repo to something like https://github.com/boldport/boldportclub-community
-* improve the styling. The site currently only has absolutely minimal tweaks over a basic bootstrap layout.
+* improve the styling. The site currently only has absolutely minimal tweaks over a basic [bootstrap layout](http://getbootstrap.com/).
 * favicons
 * enable the content submission form (formspree.io)
 * configure disqus (tardate used for testing)
@@ -131,3 +129,9 @@ A script is available to simplify new post creation. Just run:
 ```
 $ ruby bin/new_post.rb
 ```
+
+## Development Resources
+
+* [Jekyll](https://jekyllrb.com/)
+* [GitHub Pages](https://pages.github.com/)
+* [Bootstrap](http://getbootstrap.com/)
