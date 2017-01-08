@@ -2,6 +2,7 @@
 layout: default
 ---
 {% assign posts_count = (paginator.posts | size) %}
+{% assign sorted_categories = site.categories | sort %}
 
 <div class="row">
   <div class="col-md-4">
@@ -9,7 +10,7 @@ layout: default
       <div class="list-group-item active">
         Project Pages
       </div>
-      {% for category in site.categories %}
+      {% for category in sorted_categories %}
         <a href="{{ category[0] | prepend: '/projects/' | prepend: site.baseurl }}" class="list-group-item">
           <span class="glyphicon glyphicon-link" aria-hidden="true"></span>
           {{ category[0] }}
