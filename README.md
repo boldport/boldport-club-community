@@ -68,7 +68,7 @@ Right now:
 In future, there could be more automated ways of contributing:
 
 * harvesting tweets, instagram posts
-* mirror posts to the #to-share slack channel
+* mirror posts from the #to-share slack channel
 
 
 ### Ideas on: How the site is used
@@ -100,8 +100,8 @@ The basics:
 
 ## TODO
 
-* move to a final repo like https://github.com/boldport/boldportclub-community
-* improve the styling
+* move to a final repo to something like https://github.com/boldport/boldportclub-community
+* improve the styling. The site currently only has absolutely minimal tweaks over a basic bootstrap layout.
 * enable the content submission form (formspree.io)
 * configure disqus (tardate used for testing)
 * add a script to create new posts from template
