@@ -62,10 +62,11 @@ Right now:
 * pull request / commit - for the GitHub-savvy
 * create an issue - for friends of GitHub
 * submit a link & metadata - a form that gets mailed to a maintainer
+* a [Twitter Harvester](./bin/twitter_harvest)
 
 In future, there could be more automated ways of contributing:
 
-* harvesting tweets, instagram posts
+* instagram posts
 * mirror posts from the #to-share slack channel
 
 
@@ -107,6 +108,7 @@ The basics:
 * tidy and complete the text content on the site
 * enable google tag manager?
 * is sitemap working?
+
 
 
 ## Up And Running

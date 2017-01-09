@@ -1,5 +1,7 @@
 #!/usr/bin/env ruby
+$LOAD_PATH.unshift(File.join(File.dirname(__FILE__), 'lib'))
 require "pathname"
+require "post"
 
 def help
   puts <<-EOS
@@ -20,56 +22,30 @@ def help
   EOS
 end
 
-def get_post_title
+def post_title
   ARGV.last || "New Post"
 end
 
-def get_post_date
-  if ARGV.count > 1
-    ARGV.first
-  else
-    Time.now.strftime("%Y-%m-%d")
-  end
-end
-
-def get_post_date_time
-  actual = Time.now.to_s.split
-  actual[0] = get_post_date
-  actual.join(" ")
-end
-
-def get_post_filename
-  parts = [get_post_date]
-  title = get_post_title
-  parts.concat title.downcase.split
-  parts.join("-") + ".md"
+def post_date_ymd
+  ARGV.first if ARGV.count > 1
 end
 
 def generate_post
-  post_title = get_post_title
-  post_date_time = get_post_date_time
-
-  root_path = Pathname.new(File.dirname(__FILE__)).join('..')
-  template_full_path = root_path.join('_drafts', 'template.md')
-  post_full_path = root_path.join('_posts', get_post_filename)
+  post = Post.new(post_title, post_date_ymd)
 
   puts <<-EOS
 
-  Preparing a new post #{get_post_filename}
+  Preparing a new post #{post.filename}
 
-  title:    #{post_title}
-  date:     #{post_date_time}
-  template: #{template_full_path}
+  title:    #{post.title}
+  date:     #{post.date_time}
+  template: #{post.template_full_path}
 
-  Draft is now available here for editing: #{post_full_path}
+  New post is now available here for editing: #{post.full_path}
 
   EOS
+  post.write
 
-  template_text = File.open(template_full_path, 'rb') { |f| f.read }
-  template_text.gsub!(/title:.*$/, %{title:       "#{post_title}"})
-  template_text.gsub!(/date:.*$/, %{date:        "#{post_date_time}"})
-
-  File.open(post_full_path, 'w') {|f| f.write(template_text) }
 end
 
 ARGV.count > 0 ? generate_post : help

@@ -2,8 +2,9 @@
 layout:      post
 title:       "Your Post Title"
 date:        2017-01-05 20:15:00 +0800
+source_url:  # link to original ref/source (if any) of this post
 author_name: Contributor Name
-#author_url: link to contributor page (optional)
+author_url:  # link to contributor page (optional)
 
 # If you include summary text here, it will be used for display
 # in the post listing instead of an excerpt from the post body
