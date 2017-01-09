@@ -7,6 +7,7 @@
 @charset "UTF-8";
 
 @import 'animations';
+@import 'youtube';
 
 body {
   font-family: "Source Sans Pro", sans-serif;
@@ -48,16 +49,4 @@ body {
     height: auto;
     display: block;
   }
-}
-
-iframe.youtube-embed {
-  max-width: 100%;
-  max-height: 100%;
-  width: 560px;
-  height: 315px;
-}
-
-.thumb iframe.youtube-embed {
-  width: auto;
-  height: auto;
 }

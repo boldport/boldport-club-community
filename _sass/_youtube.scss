@@ -1,0 +1,15 @@
+/*!
+Responsive assistance for  YoutTube embeds
+*/
+
+iframe.youtube-embed {
+  max-width: 100%;
+  max-height: 100%;
+  width: 560px;
+  height: 315px;
+}
+
+.thumb iframe.youtube-embed {
+  width: auto;
+  height: auto;
+}
