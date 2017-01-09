@@ -36,7 +36,7 @@ The [harvets.rb](./harvest.rb) script uses the [Twitter CLI gem](https://github.
 and underlying [Twitter gem](https://github.com/sferik/twitter) to do a basic scrape.
 
 
-### Harvestinga Recent Tweets
+### Harvesting Recent Tweets
 
 The search doesn't go back far unfortunately. But if it can find the tweets, they'll be imported as posts:
 
@@ -81,6 +81,29 @@ Processing 815122051203735552 [2016-12-31 09:06:55 +0000] .. skipping: no images
 ```
 $ ./harvest.rb -i 702445677754847233
 Processing 702445677754847233 [2016-02-24 10:51:15 +0000] .. writing: /Users/paulgallagher/MyGithub/boldport/boldport-club-community/_posts/2016-02-24-702445677754847233.md
+```
+
+### TODO
+
+handle vimeo, animated gifs, linked posts...
+
+```
+$ ./harvest.rb -i 733228573041917952
+Processing 733228573041917952 [2016-05-19 09:31:29 +0000] .. skipping: no images
+{:tweet=>"#<Twitter::Tweet id=733228573041917952>", :media=>[#<Twitter::Media::AnimatedGif id=733228136964358144>], :full_text=>"I wrote a quick animation to test out my assembled Cordwood Puzzle. #BoldportClub https://t.co/4TjcUabYNg", :uris=>[]}
+
+$ ./harvest.rb -i 733674023909986304
+Processing 733674023909986304 [2016-05-20 15:01:32 +0000] .. skipping: no images
+{:tweet=>"#<Twitter::Tweet id=733674023909986304>", :media=>[#<Twitter::Media::Video id=733671458610786306>], :full_text=>"#BoldportClub Project #5, The TAP. Join today ;-) https://t.co/nycfWkRO0s https://t.co/TLCib85oEX", :uris=>[#<Twitter::Entity::URI:0x007fa71b33d410 @attrs={:url=>"https://t.co/nycfWkRO0s", :expanded_url=>"http://boldport.club", :display_url=>"boldport.club", :indices=>[50, 73]}, @_memoized_method_cache=#<Memoizable::Memory:0x007fa71b33d3e8 @memory=#<ThreadSafe::Cache:0x007fa71b33d3c0 @backend={:expanded_uri=>#<Addressable::URI:0x3fd38d99e7b0 URI:http://boldport.club>}, @default_proc=nil>, @monitor=#<Monitor:0x007fa71b33d370 @mon_owner=nil, @mon_count=0, @mon_mutex=#<Thread::Mutex:0x007fa71b33d320>>>>]}
+
+$ ./harvest.rb -i 740494715389415424
+Processing 740494715389415424 [2016-06-08 10:44:32 +0000] .. skipping: no images
+{:tweet=>"#<Twitter::Tweet id=740494715389415424>", :media=>[], :full_text=>"Did you see @alicestewwwart's build video of #BoldportClub Project #4? https://t.co/apcQQEKpsg", :uris=>[#<Twitter::Entity::URI:0x007fc973ded200 @attrs={:url=>"https://t.co/apcQQEKpsg", :expanded_url=>"https://vimeo.com/169740490", :display_url=>"vimeo.com/169740490", :indices=>[71, 94]}, @_memoized_method_cache=#<Memoizable::Memory:0x007fc973ded1d8 @memory=#<ThreadSafe::Cache:0x007fc973ded1b0 @backend={:expanded_uri=>#<Addressable::URI:0x3fe4b9ef66f8 URI:https://vimeo.com/169740490>}, @default_proc=nil>, @monitor=#<Monitor:0x007fc973ded160 @mon_owner=nil, @mon_count=0, @mon_mutex=#<Thread::Mutex:0x007fc973ded110>>>>]}
+
+$ ./harvest.rb -i 756228719920852992
+Processing 756228719920852992 [2016-07-21 20:45:51 +0000] .. skipping: no images
+{:tweet=>"#<Twitter::Tweet id=756228719920852992>", :media=>[], :full_text=>"A write-up about Boldport Club projects with great pictures https://t.co/kmM6RUcFVg #BoldportClub", :uris=>[#<Twitter::Entity::URI:0x007ff554902eb8 @attrs={:url=>"https://t.co/kmM6RUcFVg", :expanded_url=>"https://luckyresistor.me/2016/07/21/projects-from-boldport-club-arrived/", :display_url=>"luckyresistor.me/2016/07/21/pro…", :indices=>[60, 83]}, @_memoized_method_cache=#<Memoizable::Memory:0x007ff554902e90 @memory=#<ThreadSafe::Cache:0x007ff554902e68 @backend={:expanded_uri=>#<Addressable::URI:0x3ffaaa481540 URI:https://luckyresistor.me/2016/07/21/projects-from-boldport-club-arrived/>}, @default_proc=nil>, @monitor=#<Monitor:0x007ff554902e18 @mon_owner=nil, @mon_count=0, @mon_mutex=#<Thread::Mutex:0x007ff554902dc8>>>>]}
+
 ```
 
 ## References
