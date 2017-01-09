@@ -46,15 +46,15 @@ def get_post_filename
 end
 
 def generate_post
-  post_title = post_title
+  post_title = get_post_title
   post_date_time = get_post_date_time
-  puts
 
   root_path = Pathname.new(File.dirname(__FILE__)).join('..')
   template_full_path = root_path.join('_drafts', 'template.md')
   post_full_path = root_path.join('_posts', get_post_filename)
 
   puts <<-EOS
+
   Preparing a new post #{get_post_filename}
 
   title:    #{post_title}
@@ -66,7 +66,7 @@ def generate_post
   EOS
 
   template_text = File.open(template_full_path, 'rb') { |f| f.read }
-  template_text.gsub!(/title:.*$/, %{title:       "#{get_post_title}"})
+  template_text.gsub!(/title:.*$/, %{title:       "#{post_title}"})
   template_text.gsub!(/date:.*$/, %{date:        "#{post_date_time}"})
 
   File.open(post_full_path, 'w') {|f| f.write(template_text) }

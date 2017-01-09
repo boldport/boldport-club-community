@@ -99,7 +99,7 @@ The basics:
 ## TODO
 
 * move to a final repo to something like https://github.com/boldport/boldportclub-community
-* improve the styling. The site currently only has absolutely minimal tweaks over a basic [bootstrap layout](http://getbootstrap.com/).
+* improve the styling - give it a distinct "Boldport Club Community" feel and logo. The site currently only has absolutely minimal tweaks over a basic [bootstrap layout](http://getbootstrap.com/).
 * favicons
 * enable the content submission form (formspree.io)
 * configure disqus (tardate used for testing)
@@ -124,7 +124,9 @@ $ bundle exec jekyll serve
 Just create a new markdown or html file in `_posts` with a standard name `YYYY-MM-DD-your-title.extension`.
 See the [template.md](./_drafts/template.md) for information on how to use front-matter etc.
 
-A script is available to simplify new post creation. Just run:
+Creating a post doesn't require anything installed locally (though you won't be able to preview the site locally).
+
+A script is available to simplify new post creation. It needs Ruby. Just run:
 
 ```
 $ ruby bin/new_post.rb
@@ -132,6 +134,7 @@ $ ruby bin/new_post.rb
 
 ## Development Resources
 
+* [rvm](https://rvm.io/) or [rbenv](https://github.com/rbenv/rbenv) - the easiest way of setting up a Ruby environment if you don't have one already
 * [Jekyll](https://jekyllrb.com/)
 * [GitHub Pages](https://pages.github.com/)
 * [Bootstrap](http://getbootstrap.com/)
