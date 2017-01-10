@@ -4,45 +4,12 @@ title:       "LOL - Lots of LEDs"
 date:        2017-01-05 20:15:00 +0800
 author_name: "Loph"
 author_url:  "https://twitter.com/Lophification"
-
-# If you include summary text here, it will be used for display
-# in the post listing instead of an excerpt from the post body
 summary: Placing LEDs on the Boldport Club project 11 (TheMatrix) prototype
-
-# If the post concerns a project, set the project name as the category:
-#category: p11-thematrix
-
-# If the post relates to many projects, set the project names as a categories array:
-categories:
-#- p01-pease
-#- p02-emergency
-#- p03-cordwood
-#- p04-thelady
-#- p05-tap
-#- p06-thecuttle
-#- p07-touchy
-#- p08-ligemdio
-#- p09-pissoff
-#- p10-thegent
-- p11-thematrix
-#- p12-juice
-#- p99-conqueror
-#- qsop-breakout
-
-# If the post features a youtube video, set the ID here:
+category: p11-thematrix
 youtubeid: gXsVeNLuWLw
-
-# Tags are used to include the post in specific project collections:
 tags:
-- builds # includes the project in the "Community Builds" listing
-- guides # includes the project in the "Guides" listing
-
-# The images collection is used to add images to the project gallery:
-images:
-- https://pbs.twimg.com/media/C1GFYPVVQAAWuU9.jpg
-
-#- http://image.url
-#- http://another_image.url
+- builds
+- guides
 ---
 
 {% include youtube-embed.html id=page.youtubeid %}
