@@ -4,8 +4,8 @@ author:  Community
 description: > #
   quick prototype of a possible community site for the Boldport Club community
 baseurl:     ""
-repo_url:    "https://github.com/tardate/boldportclub-community"
-url:         "http://tardate.github.io/boldportclub-community/"
+repo_url:    "https://github.com/boldport/boldport-club-community"
+url:         "http://boldport.github.io/boldport-club-community/"
 date_format: "%b %-d, %Y"
 
 # Google services

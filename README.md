@@ -99,15 +99,15 @@ The basics:
 
 ## TODO
 
-* move to a final repo to something like https://github.com/boldport/boldportclub-community
 * improve the styling - give it a distinct "Boldport Club Community" feel and logo. The site currently only has absolutely minimal tweaks over a basic [bootstrap layout](http://getbootstrap.com/).
 * favicons
-* enable the content submission form (formspree.io)
-* configure disqus (tardate used for testing)
-* add a script to add new project pages
-* tidy and complete the text content on the site
+* pick a suitable email address and enable the content submission form (formspree.io)
+* configure disqus to support comments
+* tidy/improve the static text content on the site
 * enable google tag manager?
 * is sitemap working?
+* "add project" script? currently manual and needs "special knowledge"
+* move to a permanent URL for "launch" e.g. http://community.boldport.club
 
 
 
