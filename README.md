@@ -1,6 +1,57 @@
 # BoldportClub Community Site Prototype
 
 This is a quick prototype of a possible community site for the Boldport Club community.
+Scroll down to [Ideas and Motivation](#ideas-and-motivation) for more background.
+First the facts:
+
+## Tools/Utilities
+
+* [_drafts/template.md](./_drafts/template.md) markdown post template information on how to use front-matter etc
+* [bin/new_post.rb](./bin/new_post.rb) - script to simplify adding a new post
+* [bin/twitter_harvest](./bin/twitter_harvest) - a Twitter Harvester for semi-automatically adding tweets as posts
+
+## TODOs
+
+* improve the styling - give it a distinct "Boldport Club Community" feel and logo. The site currently only has absolutely minimal tweaks over a basic [bootstrap layout](http://getbootstrap.com/).
+* favicons
+* pick a suitable email address and enable the content submission form (formspree.io)
+* configure disqus to support comments
+* tidy/improve the static text content on the site
+* enable google tag manager?
+* is sitemap working?
+* "add project" script? currently manual and needs "special knowledge"
+* move to a permanent URL for "launch" e.g. http://community.boldport.club
+
+
+## Up And Running
+
+To run/develop the site locally, you first need a working ruby environment. Then:
+
+```
+$ gem install bundler
+$ bundle install
+$ bundle exec jekyll serve
+```
+
+## Adding a Post
+
+Just create a new markdown or html file in `_posts` with a standard name `YYYY-MM-DD-your-title.extension`.
+See the [template.md](./_drafts/template.md) for information on how to use front-matter etc.
+
+Creating a post doesn't require anything installed locally (though you won't be able to preview the site locally).
+
+A script is available to simplify new post creation. It needs Ruby. Just run:
+
+```
+$ ruby bin/new_post.rb
+```
+
+## Development Resources
+
+* [rvm](https://rvm.io/) or [rbenv](https://github.com/rbenv/rbenv) - the easiest way of setting up a Ruby environment if you don't have one already
+* [Jekyll](https://jekyllrb.com/)
+* [GitHub Pages](https://pages.github.com/)
+* [Bootstrap](http://getbootstrap.com/)
 
 
 ## Ideas and Motivation
@@ -17,7 +68,7 @@ All this great information tends to be quite ephemeral, while the official boldp
 * as a non-member, how can I get a better sense of what the boldport club is about? And what I could I expect to be doing if I joined?
 
 
-Proposition: there's a missing a **community site** to supplement the existing bolport pages - a central archive of information shared by members that is the *goto* destination for:
+Proposition: there's a missing a **community site** to supplement the existing boldport pages - a central archive of information shared by members that is the *goto* destination for:
   - members starting a project build, to get inspired and informed by what others have done
   - members to share their builds, guides and pictures/videos in a permanent repository
   - a source of links for posting on other platforms
@@ -44,7 +95,7 @@ This repo is a quick prototype to see how well it works.
 
 Why Jekyll & GitHub?
 
-* [GitHub Pages](https://pages.github.com/) is a great way of hosting static sites for free, while also maintaining and sharing the site soruce from a GitHub repository
+* [GitHub Pages](https://pages.github.com/) is a great way of hosting static sites for free, while also maintaining and sharing the site source from a GitHub repository
 * [Jekyll](https://jekyllrb.com/) is the static-site framework integrated in GitHub Pages (we could use other frameworks, but they'd all need offline generation)
 * it seems pretty easy and popular amongst the more technically-inclined for maintaining blogs and project pages
 
@@ -96,47 +147,3 @@ The basics:
   - contributed guides (posts: article listing)
   - project gallery (posts: image & video gallery)
 
-
-## TODO
-
-* improve the styling - give it a distinct "Boldport Club Community" feel and logo. The site currently only has absolutely minimal tweaks over a basic [bootstrap layout](http://getbootstrap.com/).
-* favicons
-* pick a suitable email address and enable the content submission form (formspree.io)
-* configure disqus to support comments
-* tidy/improve the static text content on the site
-* enable google tag manager?
-* is sitemap working?
-* "add project" script? currently manual and needs "special knowledge"
-* move to a permanent URL for "launch" e.g. http://community.boldport.club
-
-
-
-## Up And Running
-
-To run/develop the site locally, you first need a working ruby environment. Then:
-
-```
-$ gem install bundler
-$ bundle install
-$ bundle exec jekyll serve
-```
-
-## Adding a Post
-
-Just create a new markdown or html file in `_posts` with a standard name `YYYY-MM-DD-your-title.extension`.
-See the [template.md](./_drafts/template.md) for information on how to use front-matter etc.
-
-Creating a post doesn't require anything installed locally (though you won't be able to preview the site locally).
-
-A script is available to simplify new post creation. It needs Ruby. Just run:
-
-```
-$ ruby bin/new_post.rb
-```
-
-## Development Resources
-
-* [rvm](https://rvm.io/) or [rbenv](https://github.com/rbenv/rbenv) - the easiest way of setting up a Ruby environment if you don't have one already
-* [Jekyll](https://jekyllrb.com/)
-* [GitHub Pages](https://pages.github.com/)
-* [Bootstrap](http://getbootstrap.com/)
