@@ -1,6 +1,9 @@
 {% if site.repo_url %}
   <li><a class="fa fa-github" href="{{ site.repo_url }}"></a></li>
 {% endif %}
+{% if site.slack_team %}
+  <li><a class="fa fa-slack" href="https://{{ site.slack_team }}.slack.com//"></a></li>
+{% endif %}
 {% if site.bitbucket_username %}
   <li><a class="fa fa-bitbucket" href="https://bitbucket.org/{{ site.bitbucket_username }}"></a></li>
 {% endif %}

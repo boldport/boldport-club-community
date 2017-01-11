@@ -5,6 +5,11 @@
 {% endif %}
 {% if page.osh_files %}
   <li>
-     <a href="{{ page.osh_files }}">Design Files</a>
+     <a href="{{ page.osh_files }}">Official Design Files</a>
+  </li>
+{% endif %}
+{% if site.slack_team %}
+  <li>
+     <a href="https://{{ site.slack_team }}.slack.com/messages/{{ page.project }}/">#{{ page.project }} slack channel</a>
   </li>
 {% endif %}
