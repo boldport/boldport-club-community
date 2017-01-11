@@ -9,6 +9,7 @@ First the facts:
 * [_drafts/template.md](./_drafts/template.md) markdown post template information on how to use front-matter etc
 * [bin/new_post.rb](./bin/new_post.rb) - script to simplify adding a new post
 * [bin/twitter_harvest](./bin/twitter_harvest) - a Twitter Harvester for semi-automatically adding tweets as posts
+* [bin/imgur_harvest](./bin/imgur_harvest) - simple tool for snaffling images from an imgur album
 
 ## TODOs
 
