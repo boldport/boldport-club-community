@@ -12,7 +12,7 @@ layout: default
       </div>
       {% for category in sorted_categories %}
         <a href="{{ category[0] | prepend: '/projects/' | prepend: site.baseurl }}" class="list-group-item">
-          <img class="img-icon" src="{{ 'assets/images/solder-icon.png' | prepend: site.baseurl }}">
+          <img class="img-icon" src="{{ '/assets/images/solder-icon.png' | prepend: site.baseurl }}">
           {{ category[0] }}
           <span class="badge">
             {{ category[1].size }}
