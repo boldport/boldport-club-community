@@ -7,7 +7,6 @@ author_url:  http://blog.tardate.com
 category:    p06-thecuttle
 tags:
 - builds
-- guides
 images:
 - http://leap.tardate.com/BoldportClub/TheCuttle/assets/TheCuttle_build.jpg
 ---
