@@ -40,5 +40,5 @@ images:
 - http://i.imgur.com/vZp6mt7h.gif
 ---
 
-@Loph shared his [imgur album]({{ page.source_url }}) of wonderful pictures of the LIGEMDIO build
+@Loph shared his [imgur album]({{ page.source_url }}) of wonderful pictures of the Cordwood Puzzle build
 ![first image]({{ page.images[0] }})
