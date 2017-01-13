@@ -23,24 +23,23 @@ tags:
 
 # The images collection is used to add images to the project gallery:
 images:
-- http://i.imgur.com/A3WQO97.jpg
-- http://i.imgur.com/QFDDd1X.jpg
-- http://i.imgur.com/JofHHTl.jpg
-- http://i.imgur.com/NPa5CO0.jpg
-- http://i.imgur.com/mVZwqsk.jpg
-- http://i.imgur.com/bBep11l.jpg
-- http://i.imgur.com/Zhv7YWQ.jpg
-- http://i.imgur.com/hEPVDvk.jpg
-- http://i.imgur.com/VgNhI71.jpg
-- http://i.imgur.com/FYrPJYb.jpg
-- http://i.imgur.com/XiNuMHZ.jpg
-- http://i.imgur.com/JS9dnDD.jpg
-- http://i.imgur.com/wBzqwHU.jpg
-- http://i.imgur.com/0y4xJDm.jpg
-- http://i.imgur.com/eyRMKu2.jpg
+- http://i.imgur.com/A3WQO97l.jpg
+- http://i.imgur.com/QFDDd1Xl.jpg
+- http://i.imgur.com/JofHHTll.jpg
+- http://i.imgur.com/NPa5CO0l.jpg
+- http://i.imgur.com/mVZwqskl.jpg
+- http://i.imgur.com/bBep11ll.jpg
+- http://i.imgur.com/Zhv7YWQl.jpg
+- http://i.imgur.com/hEPVDvkl.jpg
+- http://i.imgur.com/VgNhI71l.jpg
+- http://i.imgur.com/FYrPJYbl.jpg
+- http://i.imgur.com/XiNuMHZl.jpg
+- http://i.imgur.com/JS9dnDDl.jpg
+- http://i.imgur.com/wBzqwHUl.jpg
+- http://i.imgur.com/0y4xJDml.jpg
+- http://i.imgur.com/eyRMKu2l.jpg
 ---
 
 I subscribed to the Boldport Club in March 2016, just in time to get the Cordwood Puzzle. The Pease kit was sold out in the store by then, so I was happy to be able to get the bare board as part of the 'Just less than perfect bundle 1'. :)
-
-Here's the [imgur album]({{ page.source_url }}) that I made during the build and a video of it functioning: 
+Here's the [imgur album]({{ page.source_url }}) that I made during the build and a video of it functioning:
 {% include youtube-embed.html id=page.youtubeid %}
