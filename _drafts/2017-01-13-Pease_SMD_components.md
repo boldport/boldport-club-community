@@ -23,21 +23,21 @@ youtubeid: kXnGoJEy29U
 
 # The images collection is used to add images to the project gallery:
 images:
-- http://imgur.com/A3WQO97
-- http://imgur.com/QFDDd1X
-- http://imgur.com/JofHHTl
-- http://imgur.com/NPa5CO0
-- http://imgur.com/mVZwqsk
-- http://imgur.com/bBep11l
-- http://imgur.com/Zhv7YWQ
-- http://imgur.com/hEPVDvk
-- http://imgur.com/VgNhI71
-- http://imgur.com/FYrPJYb
-- http://imgur.com/XiNuMHZ
-- http://imgur.com/JS9dnDD
-- http://imgur.com/wBzqwHU
-- http://imgur.com/0y4xJDm
-- http://imgur.com/eyRMKu2
+- http://i.imgur.com/A3WQO97.jpg
+- http://i.imgur.com/QFDDd1X.jpg
+- http://i.imgur.com/JofHHTl.jpg
+- http://i.imgur.com/NPa5CO0.jpg
+- http://i.imgur.com/mVZwqsk.jpg
+- http://i.imgur.com/bBep11l.jpg
+- http://i.imgur.com/Zhv7YWQ.jpg
+- http://i.imgur.com/hEPVDvk.jpg
+- http://i.imgur.com/VgNhI71.jpg
+- http://i.imgur.com/FYrPJYb.jpg
+- http://i.imgur.com/XiNuMHZ.jpg
+- http://i.imgur.com/JS9dnDD.jpg
+- http://i.imgur.com/wBzqwHU.jpg
+- http://i.imgur.com/0y4xJDm.jpg
+- http://i.imgur.com/eyRMKu2.jpg
 ---
 
 I subscribed to the Boldport Club in March 2016, just in time to get the Cordwood Puzzle. The Pease kit was sold out in the store by then, so I was happy to be able to get the bare board as part of the 'Just less than perfect bundle 1'. :)
