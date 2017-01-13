@@ -42,5 +42,5 @@ images:
 
 I subscribed to the Boldport Club in March 2016, just in time to get the Cordwood Puzzle. The Pease kit was sold out in the store by then, so I was happy to be able to get the bare board as part of the 'Just less than perfect bundle 1'. :)
 
-Here's my [imgur album]({{ page.source_url }}) made during the build and a video of it functioning: 
+Here's the [imgur album]({{ page.source_url }}) that I made during the build and a video of it functioning: 
 {% include youtube-embed.html id=page.youtubeid %}
