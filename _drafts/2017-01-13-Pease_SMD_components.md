@@ -17,7 +17,7 @@ category: p01-pease
 youtubeid: kXnGoJEy29U
 
 # Tags are used to include the post in specific project collections:
-#tags:
+tags:
 - builds # includes the project in the "Community Builds" listing
 #- guides # includes the project in the "Guides" listing
 
