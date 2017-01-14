@@ -8,27 +8,53 @@ permalink: /contribute/
 This site is only possible with the active involvement of the Boldport Community.
 Contributions are most welcome, and we're trying to make it as easy as possible
 for you to share your own material.
-There are three ways to do this:
+A good guide for what and how to write a contribution post
+is provide in the <a href="https://raw.githubusercontent.com/boldport/boldport-club-community/master/_drafts/template.md">post template.md</a>.
 </p>
 
-<h3>1. Send a Pull-Request</h3>
+<p>
+Here are a few ways you can add content to the site:
+</p>
+
+<h3>Send a Pull-Request</h3>
 <p>
   If you are familiar with GitHub, either ask for contributor access to the
   <a href="{{ site.repo_url }}">GitHub repository</a>
   or fork it and send a pull-request.
+  You can even edit your contribution and send the pull-request
+  directly from the Github web interface (no need to clone locally).
 </p>
 
-<h3>2. Create an "Issue"</h3>
+<h3>Create an "Issue"</h3>
 <p>
   Create an issue on the site
   <a href="{{ site.repo_url }}/issues">GitHub repository</a>
   and a maintainer will pick it up and turn it into a post.
 </p>
 
-<h3>3. Submit a Contribution</h3>
+
+{% if site.slack_team %}
+<h3>Share on Slack</h3>
+<p>
+  If you are in the Boldport Slack, share your contribution
+  on the
+  <a href="https://{{ site.slack_team }}.slack.com/messages/community-site/">
+    <span class="fa fa-slack"></span>
+    community-site
+  </a>
+  or
+  <a href="https://{{ site.slack_team }}.slack.com/messages/to-share/">
+    <span class="fa fa-slack"></span>
+    to-share
+  </a>
+  slack channels and ask for help to add them to the site.
+</p>
+{% endif %}
+
+<h3>Submit a Contribution</h3>
 <p>
   Use the form below to send your contribution.
-  A maintainer will receive it up and turn it into a post.
+  A maintainer will receive it and turn it into a post.
 </p>
 
 
