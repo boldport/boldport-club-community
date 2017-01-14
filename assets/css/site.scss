@@ -30,6 +30,11 @@
     height: 29px;
   }
 }
+@media screen and (max-width: 400px) {
+  .navbar-brand img {
+    height: 26px;
+  }
+}
 
 .nav-tabs {
   margin-bottom: 20px;
