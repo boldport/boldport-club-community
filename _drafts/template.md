@@ -35,8 +35,8 @@ author_url:  # link to contributor page (optional)
 
 # Tags are used to include the post in specific project collections:
 #tags:
-#- builds # includes the project in the "Community Builds" listing
-#- guides # includes the project in the "Guides" listing
+#- builds # includes the post in the project "Community Builds" listing
+#- resources # includes the post in the project "Resources" listing
 
 # The images collection is used to add images to the project gallery:
 #images:

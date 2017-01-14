@@ -64,7 +64,7 @@ layout: default
             {% include project_links.html %}
           </div>
           {% for page in site.categories[page.project] %}
-            {% if page.tags contains 'guides' %}
+            {% if page.tags contains 'resources' %}
               {% include post_list_item.html %}
             {% endif %}
           {% endfor %}

@@ -18,7 +18,7 @@ category: p09-pissoff
 
 # Tags are used to include the post in specific project collections:
 tags:
-- guides
+- resources
 
 # The images collection is used to add images to the project gallery:
 images:
