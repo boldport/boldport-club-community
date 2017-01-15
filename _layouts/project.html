@@ -3,7 +3,13 @@ layout: default
 ---
 <div class="row">
   <div class="col-md-12">
-    <h1 class="text-center">{{ page.project }} Project Page</h1>
+    <h1 class="text-center">
+      {% if page.short_name %}
+        {{ page.short_name }}
+      {% else %}
+        {{ page.project }}
+      {% endif %} Project Page
+    </h1>
   </div>
 </div>
 <div class="row">
