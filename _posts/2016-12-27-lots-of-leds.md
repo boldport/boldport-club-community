@@ -9,7 +9,6 @@ category: p11-thematrix
 youtubeid: gXsVeNLuWLw
 tags:
 - builds
-- resources
 ---
 
 {% include youtube-embed.html id=page.youtubeid %}
