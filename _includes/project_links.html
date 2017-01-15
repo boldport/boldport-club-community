@@ -1,4 +1,10 @@
 <div class="project-links">
+  {% if page.shop_page %}
+      <a href="{{ page.shop_page }}">
+        <span class="fa fa-cart-plus"></span>
+        In the Boldport Shop
+      </a>
+  {% endif %}
   {% if page.product_page %}
       <a href="{{ page.product_page }}">
         <span class="fa fa-lightbulb-o"></span>
@@ -8,7 +14,7 @@
   {% if page.osh_files %}
       <a href="{{ page.osh_files }}">
         <span class="fa fa-cog fa-spin"></span>
-        Official Design Files
+        OSH Design Files
       </a>
   {% endif %}
   {% if site.slack_team %}
