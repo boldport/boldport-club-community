@@ -19,7 +19,25 @@ layout: default
 
   <article>
     {{ content }}
+    {% if page.images %}
+      <h2>Attached Media</h2>
+      <div class="gallery">
+      {% for image_url in page.images %}
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+          {% if image_url contains '//' %}
+          {% assign image_url_absolute = image_url %}
+          {% else %}
+          {% assign image_url_absolute = image_url | prepend: site.baseurl  %}
+          {% endif %}
+          <a class="thumbnail" href="{{ image_url_absolute }}">
+            <img class="img-responsive" src="{{ image_url_absolute }}" alt="{{page.title}}">
+          </a>
+        </div>
+      {% endfor %}
+      </div>
+    {% endif %}
   </article>
+  <div class="clearfix"></div>
 
   {% if site.show_sharing_icons %}
     {% include share_buttons.html %}

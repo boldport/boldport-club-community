@@ -56,3 +56,6 @@ You can include YouTube embeds like this:
 If you have set the images collection in front-matter, you can use it to include images in
 your post like this (markdown example):
 ![ my first image]({{ page.images[0] }})
+
+Note that the standard post template will automatically attach a gallery of
+images from the images collection in front-matter.
