@@ -1,7 +1,7 @@
 # BoldportClub Community Site Prototype
 
 This is a quick prototype of a possible community site for the Boldport Club community.
-The site is currently available at [boldport.github.io/boldport-club-community](https://boldport.github.io/boldport-club-community/).
+The site is available for browsing at [community.boldport.club](http://community.boldport.club/).
 
 Scroll down to [Ideas and Motivation](#ideas-and-motivation) for more background.
 First the facts:

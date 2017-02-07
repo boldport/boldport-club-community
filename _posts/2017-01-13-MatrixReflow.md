@@ -25,5 +25,5 @@ tags:
 #images:
 ---
 
-Reflowing the LEDs on TheMatrix (follow-up on [this](https://boldport.github.io/boldport-club-community/p11-thematrix/2017/01/lots-of-leds.html) post):
+Reflowing the LEDs on TheMatrix (follow-up on [this](http://community.boldport.club/p11-thematrix/2017/01/lots-of-leds.html) post):
 {% include youtube-embed.html id=page.youtubeid %}
