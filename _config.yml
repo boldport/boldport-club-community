@@ -2,7 +2,8 @@ title: BoldportClub-Community
 email: community@boldport.com
 author:  Community
 description: > #
-  quick prototype of a possible community site for the Boldport Club community
+  A place where members of the Boldport Club share their project builds and other resources.
+  Often useful, always beautiful!
 baseurl:     ""
 repo_url:    "https://github.com/boldport/boldport-club-community"
 url:         "http://community.boldport.club/"
