@@ -64,6 +64,8 @@
     <meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />
     {% if page.hero_image_url %}
         <meta name="twitter:image" content="{{ page.hero_image_url }}" />
+    {% elsif site.hero_image_url %}
+        <meta name="twitter:image" content="{{ site.hero_image_url | prepend: site.baseurl | prepend: site.url }}" />
     {% endif %}
 
     <!-- Icons -->

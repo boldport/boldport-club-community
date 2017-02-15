@@ -7,6 +7,7 @@ description: > #
 baseurl:     ""
 repo_url:    "https://github.com/boldport/boldport-club-community"
 url:         "http://community.boldport.club/"
+hero_image_url:    "/assets/images/bpc-logo.png"
 date_format: "%b %-d, %Y"
 
 # Google services

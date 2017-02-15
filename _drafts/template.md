@@ -27,6 +27,8 @@ author_url:  # link to contributor page (optional)
 #- p10-thegent
 #- p11-thematrix
 #- p12-juice
+#- p13-cordwood-too
+#- p14-sitar
 #- p99-conqueror
 #- qsop-breakout
 
@@ -42,6 +44,8 @@ author_url:  # link to contributor page (optional)
 #images:
 #- http://image.url
 #- http://another_image.url
+
+hero_image_url: # fully-qualified url to the "hero" image, used in twitter cards for example
 ---
 
 Write your post body here. The first paragraph will be used as the excerpt if
