@@ -40,6 +40,6 @@ images:
 ---
 
 pissoff penguin! finally finished my build: the reflow with stencil worked brilliantly.
-I had the same CD card problems as others, but easily overcome.
+I had the same SD card problems as others, but easily overcome.
 Made lots of notes on the build, [available here](https://github.com/tardate/LittleArduinoProjects/tree/master/BoldportClub/PissOff)
 {% include youtube-embed.html id=page.youtubeid %}
