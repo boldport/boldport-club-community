@@ -2,5 +2,5 @@
 <span class="label label-primary">{{ tag }}</span>
 {% endfor %}
 {% for category in page.categories %}
-<span class="label label-success">{{ category }}</span>
+<a href="{{ category | prepend: '/projects/' | prepend: site.baseurl }}" class="label label-success">{{ category }}</a>
 {% endfor %}

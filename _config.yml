@@ -2,10 +2,12 @@ title: BoldportClub-Community
 email: community@boldport.com
 author:  Community
 description: > #
-  quick prototype of a possible community site for the Boldport Club community
+  A place where members of the Boldport Club share their project builds and other resources.
+  Often useful, always beautiful!
 baseurl:     ""
 repo_url:    "https://github.com/boldport/boldport-club-community"
-url:         "https://boldport.github.io/boldport-club-community/"
+url:         "http://community.boldport.club/"
+hero_image_url:    "assets/images/bpc-logo.png"
 date_format: "%b %-d, %Y"
 
 # Google services
@@ -57,15 +59,15 @@ slack_team: boldportclub
 # Post sharing icons
 show_sharing_icons: true
 # Change to 'true' to enable individual icons
-share_facebook: false
-share_twitter: false
-share_googleplus: false
-share_linkedin: false
-share_digg: false
-share_tumblr: false
-share_reddit: false
-share_stumbleupon: false
-share_hackernews: false
+share_facebook: true
+share_twitter: true
+share_googleplus: true
+share_linkedin: true
+share_digg: true
+share_tumblr: true
+share_reddit: true
+share_stumbleupon: true
+share_hackernews: true
 
 text:
   pagination:

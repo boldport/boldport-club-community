@@ -30,6 +30,11 @@
     height: 29px;
   }
 }
+@media screen and (max-width: 400px) {
+  .navbar-brand img {
+    height: 26px;
+  }
+}
 
 .nav-tabs {
   margin-bottom: 20px;
@@ -45,4 +50,14 @@
     height: auto;
     display: block;
   }
+}
+.project-links {
+  a {
+    text-decoration: none;
+    padding-right: 15px;
+  }
+}
+.img-icon {
+  height: 17px;
+  padding-right: 2px;
 }

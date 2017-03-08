@@ -1,15 +1,26 @@
-{% if page.product_page %}
-  <li>
-     <a href="{{ page.product_page }}">Official Product Page</a>
-  </li>
-{% endif %}
-{% if page.osh_files %}
-  <li>
-     <a href="{{ page.osh_files }}">Official Design Files</a>
-  </li>
-{% endif %}
-{% if site.slack_team %}
-  <li>
-     <a href="https://{{ site.slack_team }}.slack.com/messages/{{ page.project }}/">#{{ page.project }} slack channel</a>
-  </li>
-{% endif %}
+<div class="project-links">
+  {% if page.shop_page %}
+      <a href="{{ page.shop_page }}">
+        <span class="fa fa-cart-plus"></span>
+        In the Boldport Shop
+      </a>
+  {% endif %}
+  {% if page.product_page %}
+      <a href="{{ page.product_page }}">
+        <span class="fa fa-lightbulb-o"></span>
+        Official Product Page
+      </a>
+  {% endif %}
+  {% if page.osh_files %}
+      <a href="{{ page.osh_files }}">
+        <span class="fa fa-cog fa-spin"></span>
+        OSH Design Files
+      </a>
+  {% endif %}
+  {% if site.slack_team %}
+      <a href="https://{{ site.slack_team }}.slack.com/messages/{{ page.project }}/">
+        <span class="fa fa-slack"></span>
+        {{ page.project }} slack channel
+      </a>
+  {% endif %}
+</div>

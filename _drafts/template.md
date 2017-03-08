@@ -27,6 +27,8 @@ author_url:  # link to contributor page (optional)
 #- p10-thegent
 #- p11-thematrix
 #- p12-juice
+#- p13-cordwood-too
+#- p14-sitar
 #- p99-conqueror
 #- qsop-breakout
 
@@ -35,13 +37,15 @@ author_url:  # link to contributor page (optional)
 
 # Tags are used to include the post in specific project collections:
 #tags:
-#- builds # includes the project in the "Community Builds" listing
-#- guides # includes the project in the "Guides" listing
+#- builds # includes the post in the project "Community Builds" listing
+#- resources # includes the post in the project "Resources" listing
 
 # The images collection is used to add images to the project gallery:
 #images:
 #- http://image.url
 #- http://another_image.url
+
+hero_image_url: # fully-qualified url to the "hero" image, used in twitter cards for example
 ---
 
 Write your post body here. The first paragraph will be used as the excerpt if
@@ -56,3 +60,6 @@ You can include YouTube embeds like this:
 If you have set the images collection in front-matter, you can use it to include images in
 your post like this (markdown example):
 ![ my first image]({{ page.images[0] }})
+
+Note that the standard post template will automatically attach a gallery of
+images from the images collection in front-matter.

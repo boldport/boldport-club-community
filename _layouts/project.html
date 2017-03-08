@@ -3,7 +3,13 @@ layout: default
 ---
 <div class="row">
   <div class="col-md-12">
-    <h1 class="text-center">{{ page.project }} Project Page</h1>
+    <h1 class="text-center">
+      {% if page.short_name %}
+        {{ page.short_name }}
+      {% else %}
+        {{ page.project }}
+      {% endif %} Project Page
+    </h1>
   </div>
 </div>
 <div class="row">
@@ -14,7 +20,7 @@ layout: default
       <li role="presentation" class="active"><a href="#about" aria-controls="about" role="tab" data-toggle="tab">About</a></li>
       <li role="presentation"><a href="#posts" aria-controls="posts" role="tab" data-toggle="tab">Posts</a></li>
       <li role="presentation"><a href="#builds" aria-controls="builds" role="tab" data-toggle="tab">Community Builds</a></li>
-      <li role="presentation"><a href="#guides" aria-controls="guides" role="tab" data-toggle="tab">Guides and Docs</a></li>
+      <li role="presentation"><a href="#resources" aria-controls="resources" role="tab" data-toggle="tab">Resources</a></li>
       <li role="presentation"><a href="#gallery" aria-controls="gallery" role="tab" data-toggle="tab">Gallery</a></li>
     </ul>
     <div>
@@ -27,9 +33,6 @@ layout: default
               {% if page.title %}
                 <h2>{{ page.title }}</h2>
               {% endif %}
-              <ul class="pull-right">
-                {% include project_links.html %}
-              </ul>
               {{ content }}
             </div>
             {% if page.hero_image %}
@@ -51,30 +54,26 @@ layout: default
 
         <div role="tabpanel" class="tab-pane" id="builds">
           <p class="jumbotron panel-body">
-            Posts from Club Members sharing details of their project builds..
+            Looking for inspiration on what to do with this project?
+            Check out these projects builds shared by Club Members..
           </p>
-          <ul>
-            {% for page in site.categories[page.project] %}
-              {% if page.tags contains 'builds' %}
-                {% include post_list_item.html %}
-              {% endif %}
-            {% endfor %}
-          </ul>
+          {% for page in site.categories[page.project] %}
+            {% if page.tags contains 'builds' %}
+              {% include post_list_item.html %}
+            {% endif %}
+          {% endfor %}
         </div>
 
-        <div role="tabpanel" class="tab-pane" id="guides">
-          <p class="jumbotron panel-body">
-            Looking for help or inspiration on what to do with this project?
-            Check out the guides shared by Club Members..
-          </p>
-          <ul>
+        <div role="tabpanel" class="tab-pane" id="resources">
+          <div class="jumbotron panel-body">
+            Supporting resources shared by Club Members for this project..
             {% include project_links.html %}
-            {% for page in site.categories[page.project] %}
-              {% if page.tags contains 'guides' %}
-                {% include post_list_item.html %}
-              {% endif %}
-            {% endfor %}
-          </ul>
+          </div>
+          {% for page in site.categories[page.project] %}
+            {% if page.tags contains 'resources' %}
+              {% include post_list_item.html %}
+            {% endif %}
+          {% endfor %}
         </div>
 
         <div role="tabpanel" class="tab-pane" id="gallery">
@@ -85,11 +84,15 @@ layout: default
           {% for page in site.categories[page.project] %}
             {% if page.images %}
               {% for image_url in page.images %}
-                  <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                      <a class="thumbnail" href="{{ page.url | prepend: site.baseurl }}">
-                          <img class="img-responsive" src="{{ image_url }}" alt="{{page.title}}">
-                      </a>
-                  </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                  <a class="thumbnail" href="{{ page.url | prepend: site.baseurl }}">
+                    {% if image_url contains '//' %}
+                      <img class="img-responsive" src="{{ image_url }}" alt="{{page.title}}">
+                    {% else %}
+                      <img class="img-responsive" src="{{ image_url | prepend: site.baseurl }}" alt="{{page.title}}">
+                    {% endif %}
+                  </a>
+                </div>
               {% endfor %}
             {% endif %}
             {% if page.youtubeid %}
