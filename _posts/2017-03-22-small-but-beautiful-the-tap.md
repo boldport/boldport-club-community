@@ -8,7 +8,7 @@ author_url:  "https://twitter.com/mrtomsworld"
 
 # If you include summary text here, it will be used for display
 # in the post listing instead of an excerpt from the post body
-summary: Some pictures of my TAP build.
+#summary: Some pictures of my TAP build.
 
 # If the post concerns a project, set the project name as the category:
 category: p05-tap
@@ -25,3 +25,7 @@ tags:
 #images:
 
 ---
+
+{% include flickr-embed.html id="72157679973851530" %}
+
+Some pictures of my TAP build - [flickr album]({{ page.source_url }})

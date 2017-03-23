@@ -55,7 +55,10 @@ Posts may be written with markdown (file extension: md or markdown)
 or as html (file extension: html).
 
 You can include YouTube embeds like this:
-{% include youtube-embed.html id=page.youtubeid %}
+{% include youtube-embed.html id="youtube id" %}
+
+You can include a flickr album like this:
+{% include flickr-embed.html id="album-id" %}
 
 If you have set the images collection in front-matter, you can use it to include images in
 your post like this (markdown example):
