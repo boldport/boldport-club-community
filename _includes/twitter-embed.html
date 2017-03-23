@@ -1,0 +1,11 @@
+<div id='twitter-embed-{{ include.id }}'></div>
+<script>
+twttr.ready(
+  function (twttr) {
+    twttr.widgets.createTweet(
+      '{{ include.id }}',
+      document.getElementById('twitter-embed-{{ include.id }}')
+    );
+  }
+);
+</script>

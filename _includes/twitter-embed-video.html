@@ -1,0 +1,11 @@
+<div id='twitter-embed-video-{{ include.id }}'></div>
+<script>
+twttr.ready(
+  function (twttr) {
+    twttr.widgets.createVideo(
+      '{{ include.id }}',
+      document.getElementById('twitter-embed-video-{{ include.id }}')
+    );
+  }
+);
+</script>

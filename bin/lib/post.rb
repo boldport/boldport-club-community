@@ -8,6 +8,7 @@ class Post
   attr_accessor :body
   attr_accessor :images
   attr_accessor :youtube_ids
+  attr_accessor :twitter_id
 
   def initialize(title=nil, date_ymd=nil, id=nil, created_at=nil)
     @id = id
@@ -16,6 +17,7 @@ class Post
     @date_ymd = date_ymd || @created_at.strftime("%Y-%m-%d")
     @images = []
     @youtube_ids = []
+    @twitter_id = nil
   end
 
   def images?
@@ -77,6 +79,9 @@ class Post
     end
     if youtube_ids?
       text.gsub!(/#?youtubeid:.*$/, %{youtubeid:  "#{youtube_ids.first}"})
+    end
+    if twitter_id
+      text.gsub!(/#?twitterid:.*$/, %{twitterid:  "#{twitter_id}"})
     end
     if images?
       image_list = "images:\n"

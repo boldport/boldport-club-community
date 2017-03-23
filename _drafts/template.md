@@ -35,6 +35,9 @@ author_url:  # link to contributor page (optional)
 # If the post features a youtube video, set the ID here:
 #youtubeid: gXsVeNLuWLw
 
+# If the post is mirroring a tweet, set the ID here:
+#twitterid: 842187744625496064
+
 # Tags are used to include the post in specific project collections:
 #tags:
 #- builds # includes the post in the project "Community Builds" listing
@@ -59,6 +62,9 @@ You can include YouTube embeds like this:
 
 You can include a flickr album like this:
 {% include flickr-embed.html id="album-id" %}
+
+You can include twitter embeds like this:
+{% include twitter-embed.html id=page.twitterid %}
 
 If you have set the images collection in front-matter, you can use it to include images in
 your post like this (markdown example):

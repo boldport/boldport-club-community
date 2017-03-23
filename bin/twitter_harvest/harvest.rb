@@ -22,6 +22,7 @@ end
 
 def make_post(tweet)
   post = Post.new(nil, nil, tweet.id, tweet.created_at)
+  post.twitter_id = tweet.id
   tweet.media.each do |media|
     case media
     when Twitter::Media::Photo
@@ -38,13 +39,16 @@ def make_post(tweet)
   post.author_name = "@#{tweet.user.screen_name}"
   post.author_url = "https://twitter.com/#{tweet.user.screen_name}"
   post.title = tweet.full_text.split(' http').first
-  body = tweet.full_text + "\n"
-  post.youtube_ids.each do |youtube_id|
-    body += "{% include youtube-embed.html id='#{youtube_id}' %}\n\n"
+  body = ""
+  if post.media?
+    post.youtube_ids.each do |youtube_id|
+      body += "{% include youtube-embed.html id='#{youtube_id}' %}\n\n"
+    end
+    post.images.each do |image|
+      body += "![image](#{image})\n\n"
+    end
   end
-  post.images.each do |image|
-    body += "![image](#{image})\n\n"
-  end
+  body += "{% include twitter-embed.html id='#{post.twitter_id}' %}\n\n"
   post.body = body
   post
 end
@@ -64,22 +68,17 @@ def harvest(options)
       next
     end
     post = make_post(tweet)
-    if post.exists?
+    if post.exists? && !options[:force]
       puts "skipping: post already exists"
       next
     end
-    if post.media?
-      puts "writing: #{post.full_path}"
-      post.write
-    else
-      puts "skipping: no images"
-      puts tweet: tweet.inspect, media: tweet.media, full_text: tweet.full_text, uris: tweet.uris
-    end
+    puts "writing: #{post.full_path}"
+    post.write
   end
 end
 
 options = {
-  count: 100
+  count: 100, force: false
 }
 OptionParser.new do |opts|
   opts.banner = "Usage: harvest.rb [options]"
@@ -94,6 +93,9 @@ OptionParser.new do |opts|
   end
   opts.on("-i", "--id [ID]", "Harvest a particular Tweet by ID") do |value|
     options[:id] = value
+  end
+  opts.on("-f", "--[no-]force", "Force tweet to be harvested even if exists or no media") do |value|
+    options[:force] = value
   end
 
 end.parse!
