@@ -16,14 +16,10 @@ First the facts:
 ## TODOs
 
 * improve the styling - give it a distinct "Boldport Club Community" feel and logo. The site currently only has absolutely minimal tweaks over a basic [bootstrap layout](http://getbootstrap.com/).
-* favicons
-* pick a suitable email address and enable the content submission form (formspree.io)
 * configure disqus to support comments
 * tidy/improve the static text content on the site
 * enable google tag manager?
 * is sitemap working?
-* "add project" script? currently manual and needs "special knowledge"
-* move to a permanent URL for "launch" e.g. http://community.boldport.club
 
 
 ## Up And Running
