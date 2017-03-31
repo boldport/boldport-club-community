@@ -6,8 +6,7 @@ source_url:  # link to original ref/source (if any) of this post
 author_name: Contributor Name
 author_url:  # link to contributor page (optional)
 
-# If you include summary text here, it will be used for display
-# in the post listing instead of an excerpt from the post body
+# If you include summary text here, it will be used in the post meta description instead of an excerpt from the post body
 #summary: text
 
 # If the post concerns a project, set the project name as the category:

@@ -8,7 +8,7 @@ author_url:  "https://twitter.com/Lophification"
 
 # If you include summary text here, it will be used for display
 # in the post listing instead of an excerpt from the post body
-summary: I got the board as part of the 'Just less than perfect bundle 1' and decided to use SMD components (as practice for Touchy) instead of the through-hole ones that were part of the original kit.
+#summary: I got the board as part of the 'Just less than perfect bundle 1' and decided to use SMD components (as practice for Touchy) instead of the through-hole ones that were part of the original kit.
 
 # If the post concerns a project, set the project name as the category:
 category: p01-pease

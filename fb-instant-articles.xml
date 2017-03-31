@@ -22,9 +22,7 @@ layout: null
                 </content:encoded>
                 <guid isPermaLink="false">{{ post.url }}</guid>
                 <description>
-                    {% if post.summary %}
-                    {{ post.summary | xml_escape }}
-                    {% endif %}
+                    {% if page.summary %}{{ page.summary | xml_escape }}{% else %}{{ site.description | xml_escape }}{% endif %}
                 </description>
                 <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
                 <author>{{ site.author }}</author>

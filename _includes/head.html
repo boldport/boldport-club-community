@@ -60,7 +60,7 @@
         <meta name="twitter:site" content="@{{ site.twitter_username }}" />
     {% endif %}
     <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
-    <meta name="twitter:description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.description }}{% endif %}" />
+    <meta name="twitter:description" content="{% if page.summary %}{{ page.summary | xml_escape }}{% else %}{{ site.description | xml_escape }}{% endif %}" />
     <meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />
     {% if page.hero_image_url %}
         <meta name="twitter:image" content="{{ page.hero_image_url }}" />
