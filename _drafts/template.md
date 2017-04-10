@@ -27,7 +27,7 @@ author_url:  # link to contributor page (optional)
 #- p11-thematrix
 #- p12-juice
 #- p13-cordwood-too
-#- p14-sitar
+#- p14-stringy
 #- p99-conqueror
 #- qsop-breakout
 
