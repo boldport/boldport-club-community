@@ -23,9 +23,9 @@ tags:
 
 # The images collection is used to add images to the project gallery:
 #images:
-
+hero_image_url: http://c1.staticflickr.com/3/2861/32797703593_4424fc624e_k.jpg
 ---
 
+Some pictures of my 'tiny engineer superhero emergency kit' build.. - [flickr album]({{ page.source_url }})
 {% include flickr-embed.html id="72157681757997915" %}
 
-Some pictures of my 'tiny engineer superhero emergency kit' build.. - [flickr album]({{ page.source_url }})

@@ -22,7 +22,7 @@ tags:
 #- http://image.url
 #- http://another_image.url
 
-hero_image_url: # fully-qualified url to the "hero" image, used in twitter cards for example
+hero_image_url: http://c1.staticflickr.com/3/2869/34091869782_6203e05d71_k.jpg
 ---
 
 Some pictures of The Lady build from my [flickr album](https://www.flickr.com/photos/mrtomsworld/sets/72157683016581215).

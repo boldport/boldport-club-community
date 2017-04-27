@@ -23,9 +23,8 @@ tags:
 
 # The images collection is used to add images to the project gallery:
 #images:
-
+hero_image_url: http://c1.staticflickr.com/3/2806/33607793146_827460df68_k.jpg
 ---
 
-{% include flickr-embed.html id="72157679866678131" %}
-
 Some pictures of my Gent build. - [flickr album]({{ page.source_url }})
+{% include flickr-embed.html id="72157679866678131" %}

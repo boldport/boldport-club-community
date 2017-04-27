@@ -22,9 +22,8 @@ tags:
 #- http://image.url
 #- http://another_image.url
 
-hero_image_url: # fully-qualified url to the "hero" image, used in twitter cards for example
+hero_image_url: http://c1.staticflickr.com/3/2812/34129766522_b50f6d5839_k.jpg
 ---
 
 Some pictures of my [LIGEMDIO build](https://www.flickr.com/photos/mrtomsworld/sets/72157682992857536).
-
 {% include flickr-embed.html id="72157682992857536" %}

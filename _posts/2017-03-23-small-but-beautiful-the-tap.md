@@ -24,8 +24,8 @@ tags:
 # The images collection is used to add images to the project gallery:
 #images:
 
+hero_image_url: http://c1.staticflickr.com/3/2865/33534629786_a2b0897461_k.jpg
 ---
 
-{% include flickr-embed.html id="72157679973851530" %}
-
 Some pictures of my TAP build - [flickr album]({{ page.source_url }})
+{% include flickr-embed.html id="72157679973851530" %}
