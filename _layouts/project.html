@@ -82,24 +82,27 @@ layout: default
             Take a look..
           </p>
           {% for page in site.categories[page.project] %}
-            {% if page.images %}
-              {% for image_url in page.images %}
-                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                  <a class="thumbnail" href="{{ page.url | prepend: site.baseurl }}">
-                    {% if image_url contains '//' %}
-                      <img class="img-responsive" src="{{ image_url }}" alt="{{page.title}}">
-                    {% else %}
-                      <img class="img-responsive" src="{{ image_url | prepend: site.baseurl }}" alt="{{page.title}}">
-                    {% endif %}
-                  </a>
-                </div>
-              {% endfor %}
-            {% endif %}
+            {% for image_url in page.images %}
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="{{ page.url | prepend: site.baseurl }}">
+                  {% if image_url contains '//' %}
+                    <img class="img-responsive" src="{{ image_url }}" alt="{{page.title}}">
+                  {% else %}
+                    <img class="img-responsive" src="{{ image_url | prepend: site.baseurl }}" alt="{{page.title}}">
+                  {% endif %}
+                </a>
+              </div>
+            {% endfor %}
             {% if page.youtubeid %}
               <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                 {% include youtube-embed.html id=page.youtubeid %}
               </div>
             {% endif %}
+            {% for video_url in page.videos %}
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                {% include video-embed.html url=video_url %}
+              </div>
+            {% endfor %}
           {% endfor %}
         </div>
 

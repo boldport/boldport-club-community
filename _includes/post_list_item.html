@@ -4,24 +4,32 @@
       {% include youtube-embed.html id=page.youtubeid %}
     </div>
   {% else %}
-    {% assign hero_image = nil %}
-    {% if page.images %}
-      {% assign hero_image = page.images[0] %}
-    {% endif %}
-    {% if page.hero_image_url %}
-      {% assign hero_image = page.hero_image_url %}
-    {% endif %}
-
-    {% if hero_image %}
+    {% if page.videos %}
+      {% assign video_url = page.videos[0] %}
       <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-        <a class="thumbnail" href="{{ page.url | prepend: site.baseurl }}">
-          {% if hero_image contains '//' %}
-            <img class="img-responsive" src="{{ hero_image }}" alt="{{page.title}}">
-          {% else %}
-            <img class="img-responsive" src="{{ hero_image | prepend: site.baseurl }}" alt="{{page.title}}">
-          {% endif %}
-        </a>
+        {% include video-embed.html url=video_url %}
       </div>
+    {% else %}
+
+      {% assign hero_image = nil %}
+      {% if page.images %}
+        {% assign hero_image = page.images[0] %}
+      {% endif %}
+      {% if page.hero_image_url %}
+        {% assign hero_image = page.hero_image_url %}
+      {% endif %}
+
+      {% if hero_image %}
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+          <a class="thumbnail" href="{{ page.url | prepend: site.baseurl }}">
+            {% if hero_image contains '//' %}
+              <img class="img-responsive" src="{{ hero_image }}" alt="{{page.title}}">
+            {% else %}
+              <img class="img-responsive" src="{{ hero_image | prepend: site.baseurl }}" alt="{{page.title}}">
+            {% endif %}
+          </a>
+        </div>
+      {% endif %}
     {% endif %}
   {% endif %}
   <div class="col-lg-9 col-md-8 col-xs-6 thumb">

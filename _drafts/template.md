@@ -10,7 +10,7 @@ author_url:  # link to contributor page (optional)
 #summary: text
 
 # If the post concerns a project, set the project name as the category:
-#category: p11-thematrix
+#category: p13-cordwood-too
 
 # If the post relates to many projects, set the project names as a categories array:
 #categories:
@@ -48,6 +48,11 @@ author_url:  # link to contributor page (optional)
 #- http://another_image.url
 
 hero_image_url: # fully-qualified url to the "hero" image, used in twitter cards for example
+
+# The videos collection is used to add videos to the project gallery (currently only mp4):
+#videos:
+#- https://video.twimg.com/tweet_video/C_8OYj_V0AAtg5I.mp4
+
 ---
 
 Write your post body here. The first paragraph will be used as the excerpt if
@@ -58,6 +63,9 @@ or as html (file extension: html).
 
 You can include YouTube embeds like this:
 {% include youtube-embed.html id="youtube-id" %}
+
+You can include Video (mp4) embeds like this:
+{% include video-embed.html url="url to video" %}
 
 You can include a flickr album like this:
 {% include flickr-embed.html id="album-id" %}
