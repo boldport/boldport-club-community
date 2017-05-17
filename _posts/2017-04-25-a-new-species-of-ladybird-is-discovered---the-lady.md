@@ -18,9 +18,8 @@ tags:
 #- resources # includes the post in the project "Resources" listing
 
 # The images collection is used to add images to the project gallery:
-#images:
-#- http://image.url
-#- http://another_image.url
+images:
+- http://c1.staticflickr.com/3/2869/34091869782_6203e05d71_k.jpg
 
 hero_image_url: http://c1.staticflickr.com/3/2869/34091869782_6203e05d71_k.jpg
 ---

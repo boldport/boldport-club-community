@@ -1,7 +1,7 @@
 ---
 layout:      post
 title:       "Oh my, what a puzzle!"
-date:        "2017-05-16 14:00:00 +0100"
+date:        "2017-05-17 20:45:01 +0800"
 source_url:  "https://www.flickr.com/photos/mrtomsworld/sets/72157680755326814/"
 author_name: "Thomas Stratford"
 author_url:  "https://twitter.com/mrtomsworld"
@@ -22,11 +22,11 @@ tags:
 #- resources # includes the post in the project "Resources" listing
 
 # The images collection is used to add images to the project gallery:
-#images:
+images:
+- http://c1.staticflickr.com/5/4177/33891655313_c58e970de6_k.jpg
 
+hero_image_url: http://c1.staticflickr.com/5/4177/33891655313_c58e970de6_k.jpg
 ---
 
-
 Some pictures of my [Cordwood Puzzle Too build](https://www.flickr.com/photos/mrtomsworld/sets/72157680755326814/)!
-
 {% include flickr-embed.html id="72157680755326814" %}
