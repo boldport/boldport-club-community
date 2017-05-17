@@ -2,7 +2,7 @@
 layout:      post
 title:       "Oh my, what a puzzle!"
 date:        "2017-05-16 14:00:00 +0100"
-source_url:  "https://flic.kr/s/aHskV6YM5S"
+source_url:  "https://www.flickr.com/photos/mrtomsworld/sets/72157680755326814/"
 author_name: "Thomas Stratford"
 author_url:  "https://twitter.com/mrtomsworld"
 
@@ -26,6 +26,7 @@ tags:
 
 ---
 
-{% include flickr-embed.html id="72157680755326814" %}
 
-Some pictures of my Cordwood Puzzle Too build! - [flickr album]({{ page.source_url }})
+Some pictures of my [Cordwood Puzzle Too build](https://www.flickr.com/photos/mrtomsworld/sets/72157680755326814/)!
+
+{% include flickr-embed.html id="72157680755326814" %}
