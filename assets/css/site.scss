@@ -10,6 +10,13 @@
 @import 'youtube';
 @import 'video';
 
+body {
+  font-family: 'Play','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.h1, .h2, .h3, h1, h2, h3 {
+  font-weight: 700;
+}
+
 .navbar-default {
   background-color: unset;
   border: none;
@@ -46,10 +53,14 @@
 }
 
 .post {
+  margin-bottom: 20px;
   img {
     max-width: 100%;
     height: auto;
     display: block;
+  }
+  h3 {
+    margin-top: 0;
   }
 }
 .project-links {

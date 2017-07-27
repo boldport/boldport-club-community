@@ -12,6 +12,7 @@
     <link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com">
     <link rel="dns-prefetch" href="//cdn.mathjax.org">
     <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{% if page.meta_description %}{{ page.meta_description | xml_escape }}{% elsif page.summary %}{{ page.summary | xml_escape }}{% else %}{{ site.description | xml_escape }}{% endif %}">
     {% if page.meta_robots %}<meta name="robots" content="{{ page.meta_robots }}">
@@ -30,6 +31,7 @@
 
     <!-- Fonts -->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet" media="all" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Play:400,700" rel="stylesheet">
 
     <!-- MathJax -->
     {% if site.enable_mathjax %}
