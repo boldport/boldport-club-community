@@ -31,7 +31,8 @@ author_url:  # link to contributor page (optional)
 #- p15-spoolt
 #- p16-ixpando
 #- p17-mostap
-#- p18-snappy
+#- p18-themonarch
+#- p19-snappy
 #- p99-conqueror
 #- qsop-breakout
 
