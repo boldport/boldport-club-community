@@ -1,8 +1,8 @@
 ---
 layout:      post
-title:       "The Gent Build by t-paul"
-date:        "2017-08-21 21:02:08 +0800"
-source_url:  https://www.flickr.com/photos/96851846@N05/sets/72157677888520813
+title:       "LigEmDio Build by t-paul"
+date:        "2017-08-21 21:04:18 +0800"
+source_url:  https://www.flickr.com/photos/96851846@N05/sets/72157681286825795
 author_name: Torsten.Paul
 author_url:  https://www.flickr.com/photos/96851846@N05/
 
@@ -10,7 +10,7 @@ author_url:  https://www.flickr.com/photos/96851846@N05/
 #summary: text
 
 # If the post concerns a project, set the project name as the category:
-category: p10-thegent
+category: p08-ligemdio
 
 # If the post features a youtube video, set the ID here:
 #youtubeid: gXsVeNLuWLw
@@ -24,12 +24,12 @@ tags:
 #- resources # includes the post in the project "Resources" listing
 
 images:
-- https://c1.staticflickr.com/1/581/32992544650_a78cbe24b4_b.jpg
+- https://c1.staticflickr.com/1/737/32561083193_67814b04c0_b.jpg
 
-hero_image_url: https://c1.staticflickr.com/1/581/32992544650_a78cbe24b4_b.jpg
+hero_image_url: https://c1.staticflickr.com/1/737/32561083193_67814b04c0_b.jpg
 
 ---
 
-Some pictures of my [The Gent build](https://www.flickr.com/photos/96851846@N05/sets/72157677888520813)!
-{% include flickr-embed.html id="72157677888520813" %}
+Some pictures of my [LigEmDio build](https://www.flickr.com/photos/96851846@N05/sets/72157681286825795)!
+{% include flickr-embed.html id="72157681286825795" %}
 
