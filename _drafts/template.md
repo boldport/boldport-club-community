@@ -10,7 +10,7 @@ author_url:  # link to contributor page (optional)
 #summary: text
 
 # If the post concerns a project, set the project name as the category:
-#category: p15-spoolt
+#category: p16-ixpando
 
 # If the post relates to many projects, set the project names as a categories array:
 #categories:
@@ -32,7 +32,7 @@ author_url:  # link to contributor page (optional)
 #- p16-ixpando
 #- p17-mostap
 #- p18-themonarch
-#- p19-snappy
+#- p19-binco
 #- p99-conqueror
 #- qsop-breakout
 
