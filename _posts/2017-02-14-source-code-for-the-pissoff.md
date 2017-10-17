@@ -16,7 +16,7 @@ tags:
 
 # The images collection is used to add images to the project gallery:
 images:
-- /images/pissof-mcu.png
+- /images/2017-02-14-source-code-for-the-pissoff/pissof-mcu.png
 ---
 
 The microcontroller for the PissOff project comes preloaded. All the [MCU code is available here]({{ page.source_url }})

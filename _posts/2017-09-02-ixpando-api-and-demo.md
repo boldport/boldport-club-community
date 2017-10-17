@@ -24,7 +24,7 @@ tags:
 
 # The images collection is used to add images to the project gallery:
 images:
-- /images/IxpandO_RPi_API.png
+- /images/2017-09-02-ixpando-api-and-demo/IxpandO_RPi_API.png
 
 hero_image_url: # fully-qualified url to the "hero" image, used in twitter cards for example
 

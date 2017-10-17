@@ -22,7 +22,7 @@ tags:
 
 # The images collection is used to add images to the project gallery:
 images:
-- /images/pissoff-troubleshooting-guide.png
+- /images/2016-11-05-luckyresistor-pissoff-troubleshooting-guide/pissoff-troubleshooting-guide.png
 ---
 
 The [PissOff Troubleshooting Guide]({{ page.source_url }}) covers

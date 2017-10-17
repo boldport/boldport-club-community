@@ -23,7 +23,7 @@ category: p10-thegent
 
 # The images collection is used to add images to the project gallery:
 images:
-- /images/project-10-loop.gif
+- /images/2017-01-10-you-spin-my-gent-right-round-right-round/project-10-loop.gif
 #- http://another_image.url
 ---
 
