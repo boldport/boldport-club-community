@@ -21,7 +21,7 @@ category: p18-themonarch
 # Tags are used to include the post in specific project collections:
 tags:
 - builds # includes the post in the project "Community Builds" listing
-#- resources # includes the post in the project "Resources" listing
+- resources # includes the post in the project "Resources" listing
 
 # The images collection is used to add images to the project gallery:
 images:
@@ -69,6 +69,6 @@ hero_image_url: # fully-qualified url to the "hero" image, used in twitter cards
 
 ---
 
-Build information around the Boldport Club project 18 - The Monarch -- or this is how I did it, step by step... 😃
+Some detailed build notes and photographs for Boldport Club project 18 - The Monarch -- or this is how I did it, step by step... 😃
 See my [GitHub repo](https://github.com/therealprof/p18-the_monarch) for all the details...
 ![ my first image]({{ page.images[0] }})
