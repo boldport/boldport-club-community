@@ -35,6 +35,7 @@ author_url:  # link to contributor page (optional)
 #- p19-binco
 #- p20-ananas
 #- p21-widlar
+#- p22-whiteboard
 #- p99-conqueror
 #- qsop-breakout
 
