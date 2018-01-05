@@ -10,7 +10,7 @@ author_url:  # link to contributor page (optional)
 #summary: text
 
 # If the post concerns a project, set the project name as the category:
-#category: p16-ixpando
+#category: p21-widlar
 
 # If the post relates to many projects, set the project names as a categories array:
 #categories:
