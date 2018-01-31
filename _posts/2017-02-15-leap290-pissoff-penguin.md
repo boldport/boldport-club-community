@@ -23,17 +23,17 @@ tags:
 
 # The images collection is used to add images to the project gallery:
 images:
-- http://leap.tardate.com/BoldportClub/PissOff/assets/PissOff_arrival.jpg
-- http://leap.tardate.com/BoldportClub/PissOff/assets/PissOff_build.jpg
-- http://leap.tardate.com/BoldportClub/PissOff/assets/PissOff_parts.jpg
-- http://leap.tardate.com/BoldportClub/PissOff/assets/PissOff_schematic.jpg
-- http://leap.tardate.com/BoldportClub/PissOff/assets/PissOff_serial_debug.jpg
-- http://leap.tardate.com/BoldportClub/PissOff/assets/assembly_placement.jpg
-- http://leap.tardate.com/BoldportClub/PissOff/assets/assembly_reflow.jpg
-- http://leap.tardate.com/BoldportClub/PissOff/assets/assembly_setup.jpg
-- http://leap.tardate.com/BoldportClub/PissOff/assets/sd_fail.png
-- http://leap.tardate.com/BoldportClub/PissOff/assets/sd_success.png
-- http://leap.tardate.com/BoldportClub/PissOff/assets/sd_verify.png
+- https://leap.tardate.com/BoldportClub/PissOff/assets/PissOff_arrival.jpg
+- https://leap.tardate.com/BoldportClub/PissOff/assets/PissOff_build.jpg
+- https://leap.tardate.com/BoldportClub/PissOff/assets/PissOff_parts.jpg
+- https://leap.tardate.com/BoldportClub/PissOff/assets/PissOff_schematic.jpg
+- https://leap.tardate.com/BoldportClub/PissOff/assets/PissOff_serial_debug.jpg
+- https://leap.tardate.com/BoldportClub/PissOff/assets/assembly_placement.jpg
+- https://leap.tardate.com/BoldportClub/PissOff/assets/assembly_reflow.jpg
+- https://leap.tardate.com/BoldportClub/PissOff/assets/assembly_setup.jpg
+- https://leap.tardate.com/BoldportClub/PissOff/assets/sd_fail.png
+- https://leap.tardate.com/BoldportClub/PissOff/assets/sd_success.png
+- https://leap.tardate.com/BoldportClub/PissOff/assets/sd_verify.png
 
 #- http://image.url
 #- http://another_image.url

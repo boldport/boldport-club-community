@@ -23,16 +23,16 @@ tags:
 
 # The images collection is used to add images to the project gallery:
 images:
-- http://leap.tardate.com/BoldportClub/Emergency/assets/Emergency_build.jpg
-- http://leap.tardate.com/BoldportClub/Emergency/assets/Emergency_bb.jpg
-- http://leap.tardate.com/BoldportClub/Emergency/assets/Emergency_board_front.jpg
-- http://leap.tardate.com/BoldportClub/Emergency/assets/Emergency_board_rear.jpg
-- http://leap.tardate.com/BoldportClub/Emergency/assets/Emergency_breadboard.jpg
-- http://leap.tardate.com/BoldportClub/Emergency/assets/Emergency_layout.jpg
-- http://leap.tardate.com/BoldportClub/Emergency/assets/Emergency_schematic.jpg
-- http://leap.tardate.com/BoldportClub/Emergency/assets/scope.gif
+- https://leap.tardate.com/BoldportClub/Emergency/assets/Emergency_build.jpg
+- https://leap.tardate.com/BoldportClub/Emergency/assets/Emergency_bb.jpg
+- https://leap.tardate.com/BoldportClub/Emergency/assets/Emergency_board_front.jpg
+- https://leap.tardate.com/BoldportClub/Emergency/assets/Emergency_board_rear.jpg
+- https://leap.tardate.com/BoldportClub/Emergency/assets/Emergency_breadboard.jpg
+- https://leap.tardate.com/BoldportClub/Emergency/assets/Emergency_layout.jpg
+- https://leap.tardate.com/BoldportClub/Emergency/assets/Emergency_schematic.jpg
+- https://leap.tardate.com/BoldportClub/Emergency/assets/scope.gif
 
-hero_image_url: http://leap.tardate.com/BoldportClub/Emergency/assets/Emergency_build.jpg
+hero_image_url: https://leap.tardate.com/BoldportClub/Emergency/assets/Emergency_build.jpg
 ---
 
 Since I'm working with just the PCB from the "Just Less the Perfect" set, there's an obvious challenge to do something a bit different.

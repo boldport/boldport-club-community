@@ -40,7 +40,7 @@ tags:
 
 # The images collection is used to add images to the project gallery:
 images:
-- http://leap.tardate.com/playground/VariableFrequencyRunwayLEDs/assets/VariableFrequencyRunwayLEDs_build.jpg
+- https://leap.tardate.com/playground/VariableFrequencyRunwayLEDs/assets/VariableFrequencyRunwayLEDs_build.jpg
 ---
 
 in the vein of "now I have a hammer, everything looks like a nail" ...I found a new application of the LM331!
