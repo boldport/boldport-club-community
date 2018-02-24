@@ -10,7 +10,7 @@ author_url:  # link to contributor page (optional)
 #summary: text
 
 # If the post concerns a project, set the project name as the category:
-#category: p21-widlar
+#category: p22-whiteboard
 
 # If the post relates to many projects, set the project names as a categories array:
 #categories:
@@ -37,7 +37,9 @@ author_url:  # link to contributor page (optional)
 #- p21-widlar
 #- p22-whiteboard
 #- p23-pips
-#- p99-conqueror
+#- p24-conehead
+#- p25-cordwood-three
+#- p99-theconqueror
 #- qsop-breakout
 
 # If the post features a youtube video, set the ID here:
