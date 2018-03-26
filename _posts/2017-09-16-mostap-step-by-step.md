@@ -19,38 +19,38 @@ tags:
 
 # The images collection is used to add images to the project gallery:
 images:
-- https://github.com/therealprof/p17-mostap/raw/master/pics/P1050662.JPG
-- https://github.com/therealprof/p17-mostap/raw/master/pics/P1050624.JPG
-- https://github.com/therealprof/p17-mostap/raw/master/pics/P1050626.JPG
-- https://github.com/therealprof/p17-mostap/raw/master/pics/P1050627.JPG
-- https://github.com/therealprof/p17-mostap/raw/master/pics/P1050628.JPG
-- https://github.com/therealprof/p17-mostap/raw/master/pics/P1050631.JPG
-- https://github.com/therealprof/p17-mostap/raw/master/pics/P1050632.JPG
-- https://github.com/therealprof/p17-mostap/raw/master/pics/P1050633.JPG
-- https://github.com/therealprof/p17-mostap/raw/master/pics/P1050634.JPG
-- https://github.com/therealprof/p17-mostap/raw/master/pics/P1050635.JPG
-- https://github.com/therealprof/p17-mostap/raw/master/pics/P1050636.JPG
-- https://github.com/therealprof/p17-mostap/raw/master/pics/P1050637.JPG
-- https://github.com/therealprof/p17-mostap/raw/master/pics/P1050638.JPG
-- https://github.com/therealprof/p17-mostap/raw/master/pics/P1050640.JPG
-- https://github.com/therealprof/p17-mostap/raw/master/pics/P1050641.JPG
-- https://github.com/therealprof/p17-mostap/raw/master/pics/P1050643.JPG
-- https://github.com/therealprof/p17-mostap/raw/master/pics/P1050644.JPG
-- https://github.com/therealprof/p17-mostap/raw/master/pics/P1050645.JPG
-- https://github.com/therealprof/p17-mostap/raw/master/pics/P1050646.JPG
-- https://github.com/therealprof/p17-mostap/raw/master/pics/P1050648.JPG
-- https://github.com/therealprof/p17-mostap/raw/master/pics/P1050650.JPG
-- https://github.com/therealprof/p17-mostap/raw/master/pics/P1050651.JPG
-- https://github.com/therealprof/p17-mostap/raw/master/pics/P1050652.JPG
-- https://github.com/therealprof/p17-mostap/raw/master/pics/P1050653.JPG
-- https://github.com/therealprof/p17-mostap/raw/master/pics/P1050654.JPG
-- https://github.com/therealprof/p17-mostap/raw/master/pics/P1050656.JPG
-- https://github.com/therealprof/p17-mostap/raw/master/pics/P1050657.JPG
-- https://github.com/therealprof/p17-mostap/raw/master/pics/P1050659.JPG
-- https://github.com/therealprof/p17-mostap/raw/master/pics/P1050660.JPG
-- https://github.com/therealprof/p17-mostap/raw/master/pics/P1050661.JPG
+- https://raw.githubusercontent.com/therealprof/p17-mostap/master/pics/P1050662.JPG
+- https://raw.githubusercontent.com/therealprof/p17-mostap/master/pics/P1050624.JPG
+- https://raw.githubusercontent.com/therealprof/p17-mostap/master/pics/P1050626.JPG
+- https://raw.githubusercontent.com/therealprof/p17-mostap/master/pics/P1050627.JPG
+- https://raw.githubusercontent.com/therealprof/p17-mostap/master/pics/P1050628.JPG
+- https://raw.githubusercontent.com/therealprof/p17-mostap/master/pics/P1050631.JPG
+- https://raw.githubusercontent.com/therealprof/p17-mostap/master/pics/P1050632.JPG
+- https://raw.githubusercontent.com/therealprof/p17-mostap/master/pics/P1050633.JPG
+- https://raw.githubusercontent.com/therealprof/p17-mostap/master/pics/P1050634.JPG
+- https://raw.githubusercontent.com/therealprof/p17-mostap/master/pics/P1050635.JPG
+- https://raw.githubusercontent.com/therealprof/p17-mostap/master/pics/P1050636.JPG
+- https://raw.githubusercontent.com/therealprof/p17-mostap/master/pics/P1050637.JPG
+- https://raw.githubusercontent.com/therealprof/p17-mostap/master/pics/P1050638.JPG
+- https://raw.githubusercontent.com/therealprof/p17-mostap/master/pics/P1050640.JPG
+- https://raw.githubusercontent.com/therealprof/p17-mostap/master/pics/P1050641.JPG
+- https://raw.githubusercontent.com/therealprof/p17-mostap/master/pics/P1050643.JPG
+- https://raw.githubusercontent.com/therealprof/p17-mostap/master/pics/P1050644.JPG
+- https://raw.githubusercontent.com/therealprof/p17-mostap/master/pics/P1050645.JPG
+- https://raw.githubusercontent.com/therealprof/p17-mostap/master/pics/P1050646.JPG
+- https://raw.githubusercontent.com/therealprof/p17-mostap/master/pics/P1050648.JPG
+- https://raw.githubusercontent.com/therealprof/p17-mostap/master/pics/P1050650.JPG
+- https://raw.githubusercontent.com/therealprof/p17-mostap/master/pics/P1050651.JPG
+- https://raw.githubusercontent.com/therealprof/p17-mostap/master/pics/P1050652.JPG
+- https://raw.githubusercontent.com/therealprof/p17-mostap/master/pics/P1050653.JPG
+- https://raw.githubusercontent.com/therealprof/p17-mostap/master/pics/P1050654.JPG
+- https://raw.githubusercontent.com/therealprof/p17-mostap/master/pics/P1050656.JPG
+- https://raw.githubusercontent.com/therealprof/p17-mostap/master/pics/P1050657.JPG
+- https://raw.githubusercontent.com/therealprof/p17-mostap/master/pics/P1050659.JPG
+- https://raw.githubusercontent.com/therealprof/p17-mostap/master/pics/P1050660.JPG
+- https://raw.githubusercontent.com/therealprof/p17-mostap/master/pics/P1050661.JPG
 
-hero_image_url: https://github.com/therealprof/p17-mostap/raw/master/pics/P1050662.JPG
+hero_image_url: https://raw.githubusercontent.com/therealprof/p17-mostap/master/pics/P1050662.JPG
 
 ---
 

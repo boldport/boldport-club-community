@@ -25,40 +25,40 @@ tags:
 
 # The images collection is used to add images to the project gallery:
 images:
-- https://github.com/therealprof/p18-the_monarch/raw/master/pics/P1050938.JPG
-- https://github.com/therealprof/p18-the_monarch/raw/master/pics/P1050887.JPG
-- https://github.com/therealprof/p18-the_monarch/raw/master/pics/P1050888.JPG
-- https://github.com/therealprof/p18-the_monarch/raw/master/pics/P1050889.JPG
-- https://github.com/therealprof/p18-the_monarch/raw/master/pics/P1050890.JPG
-- https://github.com/therealprof/p18-the_monarch/raw/master/pics/P1050892.JPG
-- https://github.com/therealprof/p18-the_monarch/raw/master/pics/P1050893.JPG
-- https://github.com/therealprof/p18-the_monarch/raw/master/pics/P1050895.JPG
-- https://github.com/therealprof/p18-the_monarch/raw/master/pics/P1050896.JPG
-- https://github.com/therealprof/p18-the_monarch/raw/master/pics/P1050898.JPG
-- https://github.com/therealprof/p18-the_monarch/raw/master/pics/P1050900.JPG
-- https://github.com/therealprof/p18-the_monarch/raw/master/pics/P1050902.JPG
-- https://github.com/therealprof/p18-the_monarch/raw/master/pics/P1050903.JPG
-- https://github.com/therealprof/p18-the_monarch/raw/master/pics/P1050905.JPG
-- https://github.com/therealprof/p18-the_monarch/raw/master/pics/P1050908.JPG
-- https://github.com/therealprof/p18-the_monarch/raw/master/pics/P1050909.JPG
-- https://github.com/therealprof/p18-the_monarch/raw/master/pics/P1050910.JPG
-- https://github.com/therealprof/p18-the_monarch/raw/master/pics/P1050911.JPG
-- https://github.com/therealprof/p18-the_monarch/raw/master/pics/P1050912.JPG
-- https://github.com/therealprof/p18-the_monarch/raw/master/pics/P1050913.JPG
-- https://github.com/therealprof/p18-the_monarch/raw/master/pics/P1050914.JPG
-- https://github.com/therealprof/p18-the_monarch/raw/master/pics/P1050915.JPG
-- https://github.com/therealprof/p18-the_monarch/raw/master/pics/P1050916.JPG
-- https://github.com/therealprof/p18-the_monarch/raw/master/pics/P1050917.JPG
-- https://github.com/therealprof/p18-the_monarch/raw/master/pics/P1050918.JPG
-- https://github.com/therealprof/p18-the_monarch/raw/master/pics/P1050921.JPG
-- https://github.com/therealprof/p18-the_monarch/raw/master/pics/P1050922.JPG
-- https://github.com/therealprof/p18-the_monarch/raw/master/pics/P1050923.JPG
-- https://github.com/therealprof/p18-the_monarch/raw/master/pics/P1050924.JPG
-- https://github.com/therealprof/p18-the_monarch/raw/master/pics/P1050925.JPG
-- https://github.com/therealprof/p18-the_monarch/raw/master/pics/P1050926.JPG
-- https://github.com/therealprof/p18-the_monarch/raw/master/pics/P1050929.JPG
-- https://github.com/therealprof/p18-the_monarch/raw/master/pics/P1050930.JPG
-- https://github.com/therealprof/p18-the_monarch/raw/master/pics/P1050931.JPG
+- https://raw.githubusercontent.com/therealprof/p18-the_monarch/master/pics/P1050938.JPG
+- https://raw.githubusercontent.com/therealprof/p18-the_monarch/master/pics/P1050887.JPG
+- https://raw.githubusercontent.com/therealprof/p18-the_monarch/master/pics/P1050888.JPG
+- https://raw.githubusercontent.com/therealprof/p18-the_monarch/master/pics/P1050889.JPG
+- https://raw.githubusercontent.com/therealprof/p18-the_monarch/master/pics/P1050890.JPG
+- https://raw.githubusercontent.com/therealprof/p18-the_monarch/master/pics/P1050892.JPG
+- https://raw.githubusercontent.com/therealprof/p18-the_monarch/master/pics/P1050893.JPG
+- https://raw.githubusercontent.com/therealprof/p18-the_monarch/master/pics/P1050895.JPG
+- https://raw.githubusercontent.com/therealprof/p18-the_monarch/master/pics/P1050896.JPG
+- https://raw.githubusercontent.com/therealprof/p18-the_monarch/master/pics/P1050898.JPG
+- https://raw.githubusercontent.com/therealprof/p18-the_monarch/master/pics/P1050900.JPG
+- https://raw.githubusercontent.com/therealprof/p18-the_monarch/master/pics/P1050902.JPG
+- https://raw.githubusercontent.com/therealprof/p18-the_monarch/master/pics/P1050903.JPG
+- https://raw.githubusercontent.com/therealprof/p18-the_monarch/master/pics/P1050905.JPG
+- https://raw.githubusercontent.com/therealprof/p18-the_monarch/master/pics/P1050908.JPG
+- https://raw.githubusercontent.com/therealprof/p18-the_monarch/master/pics/P1050909.JPG
+- https://raw.githubusercontent.com/therealprof/p18-the_monarch/master/pics/P1050910.JPG
+- https://raw.githubusercontent.com/therealprof/p18-the_monarch/master/pics/P1050911.JPG
+- https://raw.githubusercontent.com/therealprof/p18-the_monarch/master/pics/P1050912.JPG
+- https://raw.githubusercontent.com/therealprof/p18-the_monarch/master/pics/P1050913.JPG
+- https://raw.githubusercontent.com/therealprof/p18-the_monarch/master/pics/P1050914.JPG
+- https://raw.githubusercontent.com/therealprof/p18-the_monarch/master/pics/P1050915.JPG
+- https://raw.githubusercontent.com/therealprof/p18-the_monarch/master/pics/P1050916.JPG
+- https://raw.githubusercontent.com/therealprof/p18-the_monarch/master/pics/P1050917.JPG
+- https://raw.githubusercontent.com/therealprof/p18-the_monarch/master/pics/P1050918.JPG
+- https://raw.githubusercontent.com/therealprof/p18-the_monarch/master/pics/P1050921.JPG
+- https://raw.githubusercontent.com/therealprof/p18-the_monarch/master/pics/P1050922.JPG
+- https://raw.githubusercontent.com/therealprof/p18-the_monarch/master/pics/P1050923.JPG
+- https://raw.githubusercontent.com/therealprof/p18-the_monarch/master/pics/P1050924.JPG
+- https://raw.githubusercontent.com/therealprof/p18-the_monarch/master/pics/P1050925.JPG
+- https://raw.githubusercontent.com/therealprof/p18-the_monarch/master/pics/P1050926.JPG
+- https://raw.githubusercontent.com/therealprof/p18-the_monarch/master/pics/P1050929.JPG
+- https://raw.githubusercontent.com/therealprof/p18-the_monarch/master/pics/P1050930.JPG
+- https://raw.githubusercontent.com/therealprof/p18-the_monarch/master/pics/P1050931.JPG
 
 
 hero_image_url: # fully-qualified url to the "hero" image, used in twitter cards for example
