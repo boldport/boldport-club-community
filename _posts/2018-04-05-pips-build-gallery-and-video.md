@@ -1,0 +1,43 @@
+---
+layout:      post
+title:       "pips build gallery and video"
+date:        "2018-04-05 21:55:42 +0800"
+source_url:  https://photos.app.goo.gl/8CdNyw0ebYMnzz7G2
+author_name: Andrew Gillard
+author_url:  https://www.youtube.com/channel/UCT0dA7eBKObjDdeix5V0smg
+
+# If you include summary text here, it will be used in the post meta description instead of an excerpt from the post body
+#summary: text
+
+# If the post concerns a project, set the project name as the category:
+category: p23-pips
+
+# If the post features a youtube video, set the ID here:
+youtubeid: XbsZG1onukc
+
+# If the post is mirroring a tweet, set the ID here:
+#twitterid: "842187744625496064"
+
+# Tags are used to include the post in specific project collections:
+tags:
+- builds # includes the post in the project "Community Builds" listing
+#- resources # includes the post in the project "Resources" listing
+
+# The images collection is used to add images to the project gallery:
+images:
+- https://lh3.googleusercontent.com/-X1Jqs8Scx9UdUKVArGCQ4Hp0lmge0GVc5iNLn8iaCIrlBXJ0IuY5ZrCdPP9hFjrW9M6zAEGtwRzGOIwjx8g9wUqdPK-Feq1pJ5ONLQ3QV_vbHd7nlDBCmzBrAuG9uGfrZD0SXszohPZVokCLUpMQqAx5FR9KgaWot6hFXHmIlhaGdRsZyFELB94vh911h6UX-v0FXRYWW3md-77nLID4NzfRvLjID9Jsk6wKMg_pRV7m8e9sj5bwwohbo-b6gt8-pRzvzuPPyIw-M-XYy0cqo4qLkuycPLXeGfBVCq6Y52N7NoQ1Y4AJcrqzxqXhMq_VF-S0nY5n8h7u5UPvNsD-6J_8BuXfEgHR-WbHOa7OAxK7nJSZY15IQmgM6of23zuWYl0dGFfzJLNC6Um6AletX0nFxrG95E1auXEAMG9SZUGXeotIo7Q5I3kTYG924TbrRvA0F8AAmQ4KuKlcvUwyPHoggLPFfyD-SA1bM5mrCjk4F5zjBteoWRVVNJrJLG_DWotRDNrz1GFq43jmt5mkN-X7gMz_UL-qy0M6uJWNg6ewEIUACG8U6fvJj6wnIzJ7KLtGY1esJ0lKrrhWuXD4mguYgWbYP41uDxaV_nhAT-7VqI7VZbMiO0-uS5yv5gY8yIFK16HOgU7R1YwqZHvCGyaacl5GxfLkQ=w393-h471-no
+- https://lh3.googleusercontent.com/ei6EejViYQ3_nssm6_64Pz2s1ZwF8un41jd-sN-eEh4T9Tn43M1Vxi56z1oI3GD1ApoaZTs8kXdBobEnM70iv4mx0_djSkAMN5aEVjuP7wKmXE3VLZgYPTBonAYoIkFzFevCQZlkUdYHR_aOEVAbTVAysrFBZkbV913cPnoj525s6wOoVRoBNulQKfbYlbXy9cQXRVnhU36zo7geMdKSsObUg10KgZMP-oQXu4HRaHcKoMFL-saOqOWuMRUI5pP8b6_aOGZ8EkqV1folOzLdOFgSah72Uv0CRf2VaC_jJNGvoOWH6Ete69upScSKx6pbJffKnY8pe_JRC0wrG5xMyxyuk0NaOl_bynoN5A1p8_O5aG6SlUaBF9HtYySURE004FfQLp1Vv_QQYlkSxhIucLCiOZsCCIcq8INZBNQ-9zqO3IXcA3C2_hZuguW8EwnhbQMBIlYwSULaPp0zvB_B1kHL5rfphoO3WfB3yQvCnDmvTviXB9iHv2L5uWyjWtXs7ZirP2Ow2TIVMtLIzFPu0TPxrMuYh3xsIFUtWk86MM_DHdVaPLQ2CEQoxTgNkfxYGqtjXsJiBs5gP9f7yIq84bo7TS462cV_Ycoy020b1qdFKN2q2vap5nsX9WSlOi2_05FlMT0SvYpaUEB3E3nD1SXz9SbRmyxq2g=w1216-h1832-no
+- https://lh3.googleusercontent.com/SSaCd8Mso3Ed0XaAEBmh1JySSOCuKoECJBD5A8YWJ_Sijfq4qtd04J6fjMSXfJSLCUCCBynIXbFTUIZXfNmmji4lZi_JTpWx3jh7WmUPyLcXqrOm9f8sFKpsr8u19WxMnK6IJCI4tLOAAiHly-Qn-hwTIApzBB23PMxXajc0zafQ71VGf1X5UpEXIL9cbQZeulHPHSAuJmZfFvgPN06JZjUP2qKlQt_eQQt0VPRcq3irH9m_SCfnLBwCXM5di0urtVYDSSt0cmLF0C2BdQo1s3nXeDrpL-q40MB9Joh12xRXgElvNYPdLfBRHq65kyTDTkWoV9eNlhZcaFkA_b0ojOUGKtjXm4f7obb8noy4cNHNXqt9svCmfCTMZ9M52qYH3GELrui29cwwBAozGg--dvjr_9lNRSWte5mq9_l7BuhpFnTG9cQbGWnpd0jblDJYbQuF0IOy_P9_-w_YoQHNlEoIH5kzAscYj7GL76q2OzwygV-7rHjtWYs3bKlHCBSjFEAkSn5P0s7v1aGf9Gsjkt3DxRtKXRxa0YJrQdb3Q30890kIlqoFohUjzdy4oqwdEG0SU3iW91_om5n3ALdwKo840IjHzZdjzPyMqxPZ2-pn4B9L4zubVqOQv8Snr-lwIR95Qyieh9YJ6B8VA4tymUAUX_JEKqtEyg=w1662-h1832-no
+- https://lh3.googleusercontent.com/Y5rIZXjNvoQaDX7U9ZVMsla1C5UZYt2nxn90w7uYwYjoz-iBgfFMlGOUrz342Vi94pHoiVwGqwx1aCibKbrRyw3fioJUaSZw8XgQ_9SQbYXgAAtRlIOkwK9QMvFJApM76gFoxUHiesJxl9mqs_nj8BYsYeI7_D6a0ROKhiF5-UtupymBa9jRCdxmV4ngRvYyaQpsPIZDzCTJHNcU1jBbQbEmU6Xu7VgxupTCPTY8jUXjG8BNeHixDpq_eOzXjFzHPp4rrKGt6dZID1MWY-guNFQVh0R-Nn9fRIIYCNm3JaK50_qNBxFiVwekhqQfZ8fXDztBwqQTo91BufBIctN8OdAX2GKMJXjXKd5jnx6iSuwCSYYbY9wIn1JAEfy01vmjCPeSKeBMnTHHT36q_O0NeRMe6lGefsfCybbRxbCgBuEMy0OAIQfAqsa9Zm7VkwXN5lLEF7sUi6AmXXbxvlCEViJm1rk2OzK2Cn0iE5SvTepMPduDhKwPp2W0qSp1uaWmRB9JRaCdAXl5yKy4cqGNWkH5Y4bNaF5dU4St0aU1pDhpxaVte4rKc1axuU_gTietxlY1ZndLA8MSXNMPSntGX3pWCcglkec-gcJ1jsZJx5vDwqvO22niy2AeT24AG5S0PImT9UkBAQE_BOJaSAGCwWQBdBQMVV8lww=w1156-h1832-no
+
+hero_image_url: # fully-qualified url to the "hero" image, used in twitter cards for example
+
+# The videos collection is used to add videos to the project gallery (currently only mp4):
+#videos:
+#- https://video.twimg.com/tweet_video/C_8OYj_V0AAtg5I.mp4
+
+---
+
+I finally have reasonable [photos of my #p23-pips build](https://photos.app.goo.gl/8CdNyw0ebYMnzz7G2).
+There's also a demo video that I uploaded on my YouTube channel
+{% include youtube-embed.html id="XbsZG1onukc" %}
