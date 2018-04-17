@@ -39,6 +39,7 @@ author_url:  # link to contributor page (optional)
 #- p23-pips
 #- p24-conehead
 #- p25-cordwood-three
+#- p26-lite2sound-bc
 #- p99-theconqueror
 #- qsop-breakout
 
