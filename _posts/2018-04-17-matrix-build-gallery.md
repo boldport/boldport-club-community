@@ -38,5 +38,5 @@ hero_image_url: # fully-qualified url to the "hero" image, used in twitter cards
 
 ---
 
-Photos of my [ananas build](https://photos.app.goo.gl/2TUjrM1v98xGgo6i1).
+Photos of my [matrix build](https://photos.app.goo.gl/2TUjrM1v98xGgo6i1).
 ![ my first image]({{ page.images[0] }})
