@@ -1,10 +1,10 @@
 ---
 layout:      post
-title:       "I figure this Conehead had a great tale of its trip from @boldport HQ but all I got instead was crickets.…"
-date:        "2018-04-23 17:52:56 +0000"
-source_url:  "https://twitter.com/keyglitch/status/988475823693873152"
-author_name: "@keyglitch"
-author_url:  "https://twitter.com/keyglitch"
+title:       "Conehead Timelapse"
+date:        "2018-04-24 22:58:05 +0800"
+source_url:  https://nick.blog/2018/04/24/boldport-club-24-the-conehead/
+author_name: Nick Momrik
+author_url:  https://nick.blog
 
 # If you include summary text here, it will be used in the post meta description instead of an excerpt from the post body
 #summary: text
@@ -13,14 +13,14 @@ author_url:  "https://twitter.com/keyglitch"
 category: p24-conehead
 
 # If the post features a youtube video, set the ID here:
-#youtubeid: gXsVeNLuWLw
+youtubeid: IeNKuLEEK6I
 
 # If the post is mirroring a tweet, set the ID here:
-twitterid:  "988475823693873152"
+#twitterid: "842187744625496064"
 
 # Tags are used to include the post in specific project collections:
-#tags:
-#- builds # includes the post in the project "Community Builds" listing
+tags:
+- builds # includes the post in the project "Community Builds" listing
 #- resources # includes the post in the project "Resources" listing
 
 # The images collection is used to add images to the project gallery:
@@ -36,6 +36,7 @@ hero_image_url: # fully-qualified url to the "hero" image, used in twitter cards
 
 ---
 
-{% include twitter-embed.html id='988475823693873152' %}
-
+My second month of Boldport Club is #24 The Conehead. It’s a custom PCB design of a cricket and it chirps based on how much light the “eye” can see. According to video timestamps it took about an hour to assemble the kit and it was a lot of fun using the electronics components in different ways.
+See my [blog](https://nick.blog/2018/04/24/boldport-club-24-the-conehead/) for more.
+{% include youtube-embed.html id="IeNKuLEEK6I" %}
 
