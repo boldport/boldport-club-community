@@ -10,7 +10,7 @@ author_url:  # link to contributor page (optional)
 #summary: text
 
 # If the post concerns a project, set the project name as the category:
-#category: p24-conehead
+category: p25-cordwood-three
 
 # If the post relates to many projects, set the project names as a categories array:
 #categories:
@@ -40,6 +40,7 @@ author_url:  # link to contributor page (optional)
 #- p24-conehead
 #- p25-cordwood-three
 #- p26-lite2sound-bc
+#- p27-dreamer
 #- p99-theconqueror
 #- qsop-breakout
 
