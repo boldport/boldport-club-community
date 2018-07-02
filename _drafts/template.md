@@ -41,6 +41,8 @@ category: p26-lite2sound-bc
 #- p25-cordwood-three
 #- p26-lite2sound-bc
 #- p27-dreamer
+#- p28-krell
+#- p29-respot
 #- p99-theconqueror
 #- qsop-breakout
 
