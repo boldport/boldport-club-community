@@ -44,6 +44,7 @@ category: p28-3x7
 #- p28-3x7
 #- p29-krell
 #- p30-respot
+#- p31-capaci-meter
 #- p99-theconqueror
 #- qsop-breakout
 
