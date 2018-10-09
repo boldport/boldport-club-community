@@ -54,7 +54,7 @@ medium_id:
 bitcoin_url:
 paypal_url:
 flattr_button:
-slack_team: boldportclub
+# slack_team: boldportclub
 
 # Post sharing icons
 show_sharing_icons: true

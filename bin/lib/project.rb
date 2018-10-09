@@ -51,6 +51,7 @@ title: "#{title}"
 # product_page: http://www.boldport.club/#{short_key}
 # osh_files: https://github.com/boldport/#{short_key}
 hero_image:
+discord:
 ---
     EOS
   end
