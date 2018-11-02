@@ -10,7 +10,7 @@ author_url:  # link to contributor page (optional)
 #summary: text
 
 # If the post concerns a project, set the project name as the category:
-category: p28-3x7
+category: p29-krell
 
 # If the post relates to many projects, set the project names as a categories array:
 #categories:
@@ -45,6 +45,7 @@ category: p28-3x7
 #- p29-krell
 #- p30-respot
 #- p31-capaci-meter
+#- p32-pease-out
 #- p99-theconqueror
 #- qsop-breakout
 
